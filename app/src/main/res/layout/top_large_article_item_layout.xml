@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   app:cardBackgroundColor="?attr/colorPrimaryDark"
+                                                   app:cardCornerRadius="@dimen/defaultCornerRadiusCardView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/parent_layout_top_article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:background="@drawable/backgroundColorNewsItem">
+
+
+        <TextView
+                android:text="@string/defaultMissingInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSizeTvTitleTopArticle"
+                android:padding="@dimen/paddingTextViewArticleItem"
+                android:textStyle="normal"
+                android:id="@+id/tv_article_title"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/marginStartTextViewNewsItem"
+                android:ellipsize="end"
+                android:lines="3"
+                android:textAlignment="textStart"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="@+id/guideline" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:gravity="center_vertical"/>
+
+
+        <TextView
+                android:text="@string/defaultMissingInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSizeTvTime"
+                android:paddingStart="@dimen/paddingTextViewArticleItem"
+                android:paddingEnd="@dimen/paddingEndTextViewPublishDate"
+                android:paddingTop="@dimen/paddingTextViewArticleItem"
+                android:paddingBottom="@dimen/paddingTextViewArticleItem"
+                android:textStyle="normal"
+                android:id="@+id/tv_article_publish_date"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPublishDate"
+                app:layout_constraintStart_toStartOf="@+id/divider"
+                android:linksClickable="true"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/divider"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+                android:text="@string/defaultMissingInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textSize="@dimen/textSizeTvTime"
+                android:paddingEnd="@dimen/paddingTextViewArticleItem"
+                android:paddingTop="@dimen/paddingTextViewArticleItem"
+                android:paddingBottom="@dimen/paddingTextViewArticleItem"
+                android:textColor="@color/colorPublishTime"
+                android:id="@+id/tv_article_publish_time" app:layout_constraintStart_toEndOf="@+id/tv_article_publish_date"
+                app:layout_constraintTop_toTopOf="@+id/tv_article_publish_date"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_article_publish_date" android:gravity="start"
+                android:paddingStart="@dimen/paddingStartTextViewPublishTime"/>
+
+        <com.android.volley.toolbox.NetworkImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp" app:srcCompat="@drawable/ic_broken_image_black_24dp"
+                android:id="@+id/image_article" app:layout_constraintEnd_toEndOf="parent"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/guideline"
+                app:layout_constraintGuide_percent="0.60"/>
+        <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="?android:attr/listDivider"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/tv_article_title"
+                app:layout_constraintStart_toStartOf="@+id/tv_article_title" app:layout_constraintEnd_toEndOf="@+id/tv_article_title"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

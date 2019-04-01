@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="defaultCornerRadiusCardView">0dp</dimen>
+    <dimen name="textSizeTvTitle">18sp</dimen>
+    <dimen name="textSizeTvTitleTopArticle">24sp</dimen>
+    <dimen name="paddingTextViewArticleItem">10dp</dimen>
+    <dimen name="marginStartTextViewNewsItem">8dp</dimen>
+    <dimen name="marginEndTextViewNewsItem">8dp</dimen>
+    <dimen name="marginTopTextViewNewsItem">8dp</dimen>
+    <dimen name="textSizeTvAuthor">16sp</dimen>
+    <dimen name="textSizeTvTime">12sp</dimen>
+    <dimen name="textSizeTvUrl">16sp</dimen>
+    <dimen name="articleSpacing">16dp</dimen>
+    <dimen name="paddingStartTextViewPublishTime">2dp</dimen>
+    <dimen name="paddingEndTextViewPublishDate">2dp</dimen>
+</resources>

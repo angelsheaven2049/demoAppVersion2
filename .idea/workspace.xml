@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'app'" />
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="5.4in FWVGA" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>androidx.lifecycle</group-id>
+        <name>lifecycle-viewmodel-ktx</name>
+        <version>2.1.0-alpha03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.legacy</group-id>
+        <name>legacy-support-v4</name>
+        <version>1.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.lifecycle</group-id>
+        <name>lifecycle-extensions</name>
+        <version>2.1.0-alpha03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.material</group-id>
+        <name>material</name>
+        <version>1.1.0-alpha04</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1552599079580</last-search-timestamp>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/ArticleDao.kt" line="18" mnemonic="9" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a7f8cf1-c3a8-4f20-83dc-2575b2aaf2b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.3-rc-2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.3-rc-2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.3-rc-2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.3-rc-2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.3-rc-2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.3-rc-2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums 3.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums 5.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums 9.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_common_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_common_ktx_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_fragment_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_fragment_ktx_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_runtime_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_runtime_ktx_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_ui_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_navigation_navigation_ui_ktx_1_0_0_rc02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_0_alpha2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_alpha2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_alpha02_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_common_ktx_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_paging_paging_runtime_ktx_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_1_0_alpha03_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_coroutines_2_1_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_1_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_1_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_contrib_3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_apps_common_testing_accessibility_framework_accessibility_test_framework_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_alpha02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_16_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_16_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_6_14_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_6_14_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_commons_0_10_8_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_coroutines_0_10_8_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_anko_design_0_10_8_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_commons_base_0_10_8_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_anko_design_base_0_10_8_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_8_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.teremdemoapp.data.database.AppDatabase/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.teremdemoapp.data.database.AppDatabase/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.teremdemoapp.data.database.AppDatabase/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.teremdemoapp.data.database.AppDatabase/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.teremdemoapp.data.storage.AppDatabase/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.transpire.data.storage.AppDatabase/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.transpire.data.storage.AppDatabase/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.transpire.data.storage.AppDatabase/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.transpire.data.storage.AppDatabase/7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/com.angelsheaven.transpire.data.storage.AppDatabase/8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/angelsheaven/transpire/ui/MainActivityTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/transpire/testing/OpenForTesting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/transpire/testing/SingleFragmentActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/TranspireApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleLoadResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ViewModelContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/ServerResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/CustomVolleyRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/NetworkController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/RequestResult.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/ArticleDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/DataModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/DatabaseContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/StorageDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppInjector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/FragmentBuildersModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/Injectable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/MainActivityModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/ViewModelKey.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/ViewModelModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/MainActivityViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesViewHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/DisplayListArticlesFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/DisplayListArticlesFragmentViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewArticleDetailFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewArticleDetailFragmentViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/BindingAdapters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/DataConverters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/ImageRequester.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/MyExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/UtilityClasses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/viewmodel/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/widgets/ItemDecoration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken_image_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/montserrat_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/montserrat_fonts_family.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/montserrat_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/article_item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_scrolling.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_display_list_articles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_article_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/top_large_article_item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/refs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewNewsDetailFragmentViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/com.angelsheaven.teremdemoapp_2019.03.06_23.31.li" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/com.angelsheaven.teremdemoapp_2019.03.06_23.35.li" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/com.angelsheaven.teremdemoapp_2019.03.06_23.37.li" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/com.angelsheaven.transpire_2019.03.31_23.04.li" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/com.angelsheaven.transpire_2019.04.01_00.43.li" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transpire.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/versions.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_execution_target|Samsung Galaxy A8 API 26" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="teremDemoApp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewNewsDetailFragmentViewModelTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkDataSource.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/NetworkController.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="e#41#922#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/StorageDataSource.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/transpire/testing/OpenForTesting.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/versions.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/mockito-extensions/org.mockito.plugins.MockMaker">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Singleton" />
+        <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>androidx.test.ext</find>
+      <find>android</find>
+      <find>android_test</find>
+      <find>androidx.test.espresso:espresso-core</find>
+      <find>com.android.tools.build:gradle</find>
+      <find>sInstance</find>
+      <find>activity</find>
+      <find>mFragment</find>
+      <find>com.google.dagger:dagger-compiler</find>
+      <find>updateSavedField</find>
+      <find>org.jetbrains.kotlinx</find>
+      <find>Serve</find>
+      <find>News</find>
+      <find>SwipeToDeleteCallback</find>
+      <find>text</find>
+      <find>scaleType</find>
+      <find>android_gradle_plugin</find>
+      <find>androidx.constraintlayout</find>
+      <find>constraintlayout</find>
+      <find>24</find>
+      <find>getFormatTime</find>
+      <find>holderView</find>
+      <find>parseArticles</find>
+      <find>dagger</find>
+      <find>context</find>
+      <find>test</find>
+      <find>junit_local_test</find>
+      <find>test.local</find>
+      <find>mockito</find>
+      <find>mockito_core</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_article_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ListArticlesFragmentViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ListArticlesFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ViewModelContract.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/DatabaseContract.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/DataModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/ArticleDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/AppDatabase.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/StorageModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/NewsRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/ImageRequester.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/TranspireVolleyController.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/VolleyCallback.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/TranspireVolleyController.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/VolleyRequestResult.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/UtilityClasses.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleLoadResult.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkService2.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/NetworkModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkContract.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/ViewModelModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/FragmentBuildersModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/MainActivityModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/TranspireApplication.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppInjector.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/MainActivityViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewArticleDetailFragmentViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/DisplayListArticlesFragmentViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/DisplayListArticlesFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewArticleDetailFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/viewmodel 2/GithubViewModelFactory.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/viewmodel 2/ViewModelFactory.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppComponent.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewNewsDetailFragmentViewModelTest.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewNewsDetailFragmentViewModelTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/versions.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/NetworkController.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/StorageDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleRepository.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="714" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_a530f-172.20.10.3:5555" />
+    <property name="DEBUGGABLE_PROCESS" value="com.angelsheaven.teremdemoapp" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/captures/com.angelsheaven.teremdemoapp_2019.03.06_23.35.li" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.angelsheaven.transpire.data.network.volley" />
+      <recent name="com.angelsheaven.teremdemoapp.di" />
+      <recent name="com.angelsheaven.teremdemoapp.data" />
+      <recent name="com.angelsheaven.teremdemoapp.data.storage" />
+      <recent name="com.angelsheaven.teremdemoapp.ui.login" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.angelsheaven.transpire.ui.viewNewsDetail" />
+      <recent name="com.angelsheaven.teremdemoapp.ui.login" />
+      <recent name="com.angelsheaven.teremdemoapp.ui.listNews.savedNews" />
+      <recent name="com.angelsheaven.teremdemoapp.ui" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.angelsheaven.transpire.utilities" />
+      <recent name="com.angelsheaven.teremdemoapp.widgets" />
+      <recent name="com.angelsheaven.teremdemoapp.data.database" />
+      <recent name="com.angelsheaven.teremdemoapp.ui.listNews" />
+      <recent name="com.angelsheaven.teremdemoapp.ui.dialogs" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="com.angelsheaven.teremdemoapp.ui.listNews" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-sw600dp" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listNews" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android JUnit.ViewNewsDetailFragmentViewModelTest">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="ViewNewsDetailFragmentViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angelsheaven.transpire.ui.viewNewsDetail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.angelsheaven.transpire.ui.viewNewsDetail" />
+      <option name="MAIN_CLASS_NAME" value="com.angelsheaven.transpire.ui.viewNewsDetail.ViewNewsDetailFragmentViewModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android JUnit.ViewNewsDetailFragmentViewModelTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ViewNewsDetailFragmentViewModelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a7f8cf1-c3a8-4f20-83dc-2575b2aaf2b7" name="Default Changelist" comment="" />
+      <created>1551832884671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551832884671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LoginFragmentViewModelTest - 2019.03.20 at 17h 27m 29s.xml">
+      <configuration name="LoginFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="LoginFragmentViewModelTest - 2019.03.20 at 17h 45m 19s.xml">
+      <configuration name="LoginFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="LoginFragmentViewModelTest - 2019.03.22 at 11h 12m 30s.xml">
+      <configuration name="LoginFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest_testNull - 2019.04.01 at 17h 50m 29s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest.testNull" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest_testNull - 2019.04.01 at 17h 58m 16s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest.testNull" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest - 2019.04.01 at 18h 02m 50s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest - 2019.04.01 at 18h 07m 17s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest - 2019.04.01 at 18h 09m 01s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest - 2019.04.01 at 18h 15m 29s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ViewNewsDetailFragmentViewModelTest - 2019.04.01 at 18h 16m 16s.xml">
+      <configuration name="ViewNewsDetailFragmentViewModelTest" configurationId="AndroidJUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="714" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32794678" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49949342" visible="true" weight="0.3690476" />
+      <window_info id="Resources Explorer" order="7" weight="0.29057017" />
+      <window_info id="Structure" order="8" sideWeight="0.5005066" side_tool="true" weight="0.3131313" />
+      <window_info anchor="bottom" auto_hide="true" id="Build" order="0" sideWeight="0.49427754" weight="0.20322181" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3219107" />
+      <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" weight="0.32928064" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50572246" side_tool="true" weight="0.2897196" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49774265" weight="0.43566364" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.49213162" weight="0.19795658" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32826748" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.31464174" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.46222222" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Metrics" order="12" weight="0.48805815" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3281412" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Android WiFi ADB" order="1" weight="0.32969433" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Fabric" order="9" />
+      <window_info anchor="right" id="Codota" order="10" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.32960597" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="12" weight="0.7622739" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32794678" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49949342" visible="true" weight="0.3482143" />
+      <window_info id="Resources Explorer" order="7" weight="0.29057017" />
+      <window_info id="Structure" order="8" sideWeight="0.5005066" side_tool="true" weight="0.3131313" />
+      <window_info anchor="bottom" auto_hide="true" id="Build" order="0" sideWeight="0.49427754" weight="0.20322181" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3219107" />
+      <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" weight="0.32928064" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50572246" side_tool="true" weight="0.2897196" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49774265" weight="0.43566364" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.49213162" weight="0.19950433" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32826748" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.31464174" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.46222222" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Metrics" order="12" weight="0.48805815" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3281412" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Android WiFi ADB" order="1" weight="0.32969433" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Fabric" order="9" />
+      <window_info anchor="right" id="Codota" order="10" />
+      <window_info anchor="right" id="Assistant" order="11" weight="0.32960597" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="12" weight="0.7622739" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload code" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload code" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/TranspireVolleyController.kt" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/angelsheaven/transpire/di/DaggerAppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/viewmodel/GithubViewModelFactory.kt" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/angelsheaven/transpire/databinding/FragmentViewArticleDetailBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_view_article_detail.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android/2.14.1/fed8c59630998955c032b54a12302cdafe7d0c7/dagger-android-2.14.1-sources.jar!/dagger/android/AndroidInjectionModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/TranspireApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/StorageModule.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/NetworkModule.kt" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/angelsheaven/transpire/di/FragmentBuildersModule_ContributeDisplayListArticlesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/angelsheaven/transpire/di/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0-alpha02/5d86e5a1ba6a7446026291e9105b360252d0c852/lifecycle-viewmodel-2.1.0-alpha02-sources.jar!/androidx/lifecycle/ViewModelProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/viewmodel/ViewModelFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/UtilityClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/MyExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="87" />
+          <folding>
+            <element signature="e#46#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#39#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/MainActivityViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewArticleDetailFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/DisplayListArticlesFragmentViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/DisplayListArticlesFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="104" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppComponent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/CustomVolleyRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/RequestResult.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/ServerResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ViewModelContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleLoadResult.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppInjector.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="e#660#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/Injectable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/ViewModelModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/AppModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#39#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/FragmentBuildersModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding>
+            <element signature="e#660#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/MainActivityModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="e#660#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/di/ViewModelKey.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewArticleDetailFragmentViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/AppDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/mockito-extensions/org.mockito.plugins.MockMaker">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/transpire/testing/OpenForTesting.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/storage/StorageDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/NetworkController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/NetworkDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/transpire/ui/viewNewsDetail/ViewNewsDetailFragmentViewModelTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/ArticleRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#41#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

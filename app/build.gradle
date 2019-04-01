@@ -1,0 +1,128 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'androidx.navigation.safeargs'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion deps.versions.globalCompileSdkVersion
+    defaultConfig {
+        applicationId "com.angelsheaven.transpire"
+        minSdkVersion deps.versions.globalMinSdkVersion
+        targetSdkVersion deps.versions.globalTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        kapt {
+            arguments {
+                arg("room.schemaLocation", "$projectDir/schemas".toString())
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    dataBinding {
+        enabled true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Kotlin
+    implementation deps.kotlin.stdlib
+    implementation deps.kotlin.reflect
+
+    //Anko Commons
+    implementation deps.anko.common
+    implementation deps.anko.design
+    implementation deps.anko.coroutine
+
+    //UI components libraries
+    implementation deps.ui.material_design
+    implementation deps.ui.cardview
+    implementation deps.ui.recyclerview
+    implementation deps.ui.constraintlayout
+
+    // Navigation
+    implementation deps.navigation.fragment
+    implementation deps.navigation.ktx
+
+    //Architecture components libraries
+    implementation deps.architecture.lifecycle_runtime
+    implementation deps.architecture.lifecycle_extensions
+    implementation deps.support.v4
+    implementation deps.architecture.lifecycle_extensions
+    implementation deps.architecture.lifecycle_viewmodel_ktx
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
+    kapt deps.architecture.lifecycle_compiler
+    annotationProcessor deps.architecture.lifecycle_compiler
+
+    //Support lirary
+    implementation deps.support.v4
+    implementation deps.support.appcompat
+
+    //Room
+    implementation deps.room.runtime
+    implementation deps.room.coroutine
+    implementation deps.room.rxjava2
+    annotationProcessor deps.room.compiler
+    kapt deps.room.compiler
+
+    //Paging
+    implementation deps.paging.runtime
+
+    implementation deps.core_ktx
+
+    //Kotlin coroutines
+    implementation deps.coroutines.core
+    implementation deps.coroutines.android
+
+    // JSON Parsing
+    implementation deps.json.gson
+    implementation deps.json.converter
+
+    // Rxjava
+    implementation deps.rx.rxjava2
+    implementation deps.rx.rx_android
+
+    //Dagger2
+    implementation deps.dagger.runtime
+    implementation deps.dagger.core
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+
+    kapt deps.dagger.compiler
+    kapt deps.dagger.android_support_compiler
+
+    //Volley
+    implementation deps.volley.volley
+
+    //Unit test
+    testImplementation deps.test.local
+    testImplementation deps.test.mockito_core
+
+    //Integration test
+    androidTestImplementation deps.test.test_core
+    androidTestImplementation deps.test.assertion_junit
+    androidTestImplementation deps.test.runner
+    androidTestImplementation deps.test.espresso
+    androidTestImplementation deps.test.espresso_contrib
+
+}

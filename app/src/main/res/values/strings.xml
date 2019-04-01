@@ -1,0 +1,10 @@
+<resources>
+    <string name="appName">Transpire</string>
+    <string name="defaultMissingInfo">N/A</string>
+    <string name="unableToAccessServerNotification">Unable to access server! Please check your network</string>
+    <string name="serverResponseErrorNotification">Server return error! Please try later</string>
+    <string name="unknownErrorNotification">Unknown error</string>
+    <string name="labelListArticleScreen">Title</string>
+    <string name="labelViewArticleDetailDest">Detail</string>
+    <string name="unable_to_get_article">There error happen!Unable to get article detail</string>
+</resources>

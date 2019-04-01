@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Background color for toolbar-->
+    <color name="colorPrimary">#4d99c0</color>
+    <color name="colorPrimaryDark">#DADCE0</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="windowBackground">#e6e6e5</color>
+    <!--Text color on toolbar-->
+    <color name="textColorPrimary">#4d99c0</color>
+
+    <color name="colorDefaultText">#4d99c0</color>
+    <color name="snackbarBackgroundColor">#ffffff</color>
+    <color name="colorPublishTime">#afb0af</color>
+    <color name="colorPublishDate">#9a9a9a</color>
+    <color name="text_color_snackbar">@android:color/black</color>
+</resources>
