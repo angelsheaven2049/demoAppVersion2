@@ -5,9 +5,9 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.angelsheaven.transpire.testing.OpenForTesting
 import com.angelsheaven.transpire.utilities.MyLogger
-import com.angelsheaven.volley.CustomVolleyRequest
-import com.angelsheaven.volley.NetworkController
-import com.angelsheaven.volley.RequestResult
+import com.angelsheaven.transpire.data.network.volley.CustomVolleyRequest
+import com.angelsheaven.transpire.data.network.volley.NetworkController
+import com.angelsheaven.transpire.data.network.volley.RequestResult
 import com.google.gson.Gson
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.room.Room
 import com.angelsheaven.transpire.data.storage.AppDatabase
 import com.angelsheaven.transpire.data.storage.DatabaseContract
-import com.angelsheaven.volley.NetworkController
+import com.angelsheaven.transpire.data.network.volley.NetworkController
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

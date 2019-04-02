@@ -2,8 +2,8 @@ package com.angelsheaven.transpire
 
 import android.app.Activity
 import android.app.Application
-import com.angelsheaven.transpire.di.AppInjector
 import com.angelsheaven.transpire.di.AppComponent
+import com.angelsheaven.transpire.di.AppInjector
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
@@ -30,11 +30,6 @@ open class TranspireApplication:Application(), HasActivityInjector {
     override fun onCreate() {
         super.onCreate()
         instance = this
-        /*appComponent = DaggerAppComponent.builder()
-            .appModule(AppModule(this))
-            .networkModule(NetworkModule())
-            .storageModule(StorageModule())
-            .build()*/
 
         AppInjector.init(this)
 

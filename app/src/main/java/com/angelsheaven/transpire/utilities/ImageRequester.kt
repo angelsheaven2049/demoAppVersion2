@@ -7,7 +7,7 @@ import com.android.volley.RequestQueue
 import com.android.volley.toolbox.ImageLoader
 import com.android.volley.toolbox.NetworkImageView
 import com.angelsheaven.transpire.TranspireApplication
-import com.angelsheaven.volley.NetworkController
+import com.angelsheaven.transpire.data.network.volley.NetworkController
 
 /**
  * Class that handles image requests using Volley.

@@ -13,7 +13,7 @@ import com.angelsheaven.transpire.data.storage.Article
 import com.angelsheaven.transpire.data.storage.StorageDataSource
 import com.angelsheaven.transpire.testing.OpenForTesting
 import com.angelsheaven.transpire.utilities.MyLogger
-import com.angelsheaven.volley.RequestResult
+import com.angelsheaven.transpire.data.network.volley.RequestResult
 import io.reactivex.Flowable
 import kotlinx.coroutines.*
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.angelsheaven.volley
+package com.angelsheaven.transpire.data.network.volley
 
 /**
  * Returned object for each request to server
