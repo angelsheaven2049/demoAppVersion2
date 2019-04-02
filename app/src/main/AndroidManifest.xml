@@ -5,13 +5,13 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-            android:name="com.angelsheaven.demo.TranspireApplication"
+            android:name="com.angelsheaven.demo.DemoApplication"
             android:allowBackup="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/appName"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/Theme.Transpire">
+            android:theme="@style/Demo.Transpire">
         <activity
                 android:name="com.angelsheaven.demo.ui.MainActivity"
                 android:label="@string/appName"

@@ -14,7 +14,7 @@ import javax.inject.Inject
  * @author Quan Nguyen
  */
 
-open class TranspireApplication:Application(), HasActivityInjector {
+open class DemoApplication:Application(), HasActivityInjector {
 
     @Inject
     lateinit var dispatchingAndroidInjector: DispatchingAndroidInjector<Activity>
@@ -22,7 +22,7 @@ open class TranspireApplication:Application(), HasActivityInjector {
      * Static fields
      */
     companion object {
-        lateinit var instance: TranspireApplication
+        lateinit var instance: DemoApplication
     }
 
     override fun onCreate() {

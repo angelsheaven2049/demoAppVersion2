@@ -18,7 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                style="@style/Widget.Transpire.Toolbar"/>
+                style="@style/Widget.Demo.Toolbar"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 

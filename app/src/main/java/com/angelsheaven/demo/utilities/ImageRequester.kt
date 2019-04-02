@@ -6,7 +6,7 @@ import android.util.LruCache
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.ImageLoader
 import com.android.volley.toolbox.NetworkImageView
-import com.angelsheaven.demo.TranspireApplication
+import com.angelsheaven.demo.DemoApplication
 import com.angelsheaven.demo.data.network.volley.NetworkController
 
 /**
@@ -18,7 +18,7 @@ object ImageRequester {
     private val maxByteSize: Int
 
     init {
-        val context = TranspireApplication.instance
+        val context = DemoApplication.instance
         this.requestQueue = NetworkController.getInstance()?.getRequestQueue()
         this.maxByteSize = calculateMaxByteSize(context)
         this.imageLoader = ImageLoader(

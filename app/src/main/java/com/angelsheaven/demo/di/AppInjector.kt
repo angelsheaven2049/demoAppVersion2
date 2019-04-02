@@ -22,7 +22,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
-import com.angelsheaven.demo.TranspireApplication
+import com.angelsheaven.demo.DemoApplication
 import dagger.android.AndroidInjection
 import dagger.android.support.AndroidSupportInjection
 import dagger.android.support.HasSupportFragmentInjector
@@ -31,7 +31,7 @@ import dagger.android.support.HasSupportFragmentInjector
  * Helper class to automatically inject fragments if they implement [Injectable].
  */
 object AppInjector {
-    fun init(githubApp: TranspireApplication) {
+    fun init(githubApp: DemoApplication) {
         DaggerAppComponent.builder().application(githubApp)
             .build().inject(githubApp)
         githubApp

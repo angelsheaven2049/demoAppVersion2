@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="Theme.Transpire" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Demo.Transpire" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -13,7 +13,7 @@
         <item name="android:fontFamily">@font/montserrat_fonts_family</item>
     </style>
 
-    <style name="Widget.Transpire.Toolbar" parent="Widget.AppCompat.Toolbar">
+    <style name="Widget.Demo.Toolbar" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">@color/colorAccent</item>
     </style>
 

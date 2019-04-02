@@ -1,7 +1,7 @@
 package com.angelsheaven.demo.di
 
 import android.app.Application
-import com.angelsheaven.demo.TranspireApplication
+import com.angelsheaven.demo.DemoApplication
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
@@ -28,6 +28,6 @@ interface AppComponent{
         fun build(): AppComponent
     }
 
-    fun inject(transpireApplication: TranspireApplication)
+    fun inject(transpireApplication: DemoApplication)
 
 }
