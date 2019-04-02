@@ -2,7 +2,6 @@ package com.angelsheaven.transpire
 
 import android.app.Activity
 import android.app.Application
-import com.angelsheaven.transpire.di.AppComponent
 import com.angelsheaven.transpire.di.AppInjector
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
@@ -23,7 +22,6 @@ open class TranspireApplication:Application(), HasActivityInjector {
      * Static fields
      */
     companion object {
-        lateinit var appComponent: AppComponent
         lateinit var instance: TranspireApplication
     }
 
