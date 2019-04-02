@@ -2,9 +2,9 @@ package com.angelsheaven.transpire.di
 
 import android.app.Application
 import androidx.room.Room
+import com.angelsheaven.transpire.data.network.volley.NetworkController
 import com.angelsheaven.transpire.data.storage.AppDatabase
 import com.angelsheaven.transpire.data.storage.DatabaseContract
-import com.angelsheaven.transpire.data.network.volley.NetworkController
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -17,7 +17,7 @@ class AppModule {
 
     /**
      * Provide volley controller for retrieve data remotely
-     * @param context of provided application
+     * @param app of provided application
      */
     @Provides
     @Singleton
@@ -25,7 +25,7 @@ class AppModule {
 
     /**
      * Provide database instance
-     * @param context of provided application
+     * @param app of provided application
      */
     @Provides
     @Singleton

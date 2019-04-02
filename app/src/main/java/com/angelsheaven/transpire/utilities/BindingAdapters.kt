@@ -23,7 +23,7 @@ import androidx.databinding.BindingAdapter
  * BindingAdapters class - Utility class used to
  * add more handy attributes for UI Widget
  * @author Quan Nguyen
- * @see fragment_view_article_detail.xml in res/layout
+ * @see fragment_view_article_detail in res/layout
  */
 object BindingAdapters {
 

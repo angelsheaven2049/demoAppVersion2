@@ -7,7 +7,7 @@ import com.google.gson.Gson
 /**
  * DataConverters class - used to help room convert data type for storage purpose
  * @author Quan Nguyen
- * @see AppDatabase.kt
+ * @see AppDatabase
  */
 class DataConverters{
 
