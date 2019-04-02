@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
-import com.angelsheaven.demo.di.Injectable
 import com.angelsheaven.demo.R
 import com.angelsheaven.demo.databinding.FragmentViewArticleDetailBinding
+import com.angelsheaven.demo.di.Injectable
 import com.angelsheaven.demo.utilities.MyLogger
 import com.angelsheaven.demo.utilities.mySnackBar
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -33,15 +33,16 @@ class ViewArticleDetailFragment : Fragment(), Injectable, MyLogger {
         ViewModelProviders.of(this, viewModelFactory).get(ViewNewsDetailFragmentViewModel::class.java)
     }
 
+    private lateinit var mBinding: FragmentViewArticleDetailBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        // Inflate the layout for this fragment
-        val binding = FragmentViewArticleDetailBinding.inflate(inflater, container, false)
+        mBinding = FragmentViewArticleDetailBinding.inflate(inflater, container, false)
 
-        binding.viewmodel = viewModel
+        mBinding.viewmodel = viewModel
 
         arguments?.let { bundle ->
             /**
@@ -57,7 +58,7 @@ class ViewArticleDetailFragment : Fragment(), Injectable, MyLogger {
             viewModel.getArticleDetailObservable(mArticleId)?.subscribeOn(Schedulers.io())
                 ?.observeOn(AndroidSchedulers.mainThread())
                 ?.subscribe({ returnedNewsDetail ->
-                    binding.viewmodel?.articleDetail?.set(returnedNewsDetail)
+                    mBinding.viewmodel?.articleDetail?.set(returnedNewsDetail)
                 }, { error ->
                     log("Unable to get article detail ${error.message}")
                     view?.mySnackBar(
@@ -71,7 +72,7 @@ class ViewArticleDetailFragment : Fragment(), Injectable, MyLogger {
                 }
         }
 
-        return binding.root
+        return mBinding.root
     }
 
 }

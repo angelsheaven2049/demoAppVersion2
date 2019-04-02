@@ -10,8 +10,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.angelsheaven.demo.di.Injectable
 import com.angelsheaven.demo.R
+import com.angelsheaven.demo.di.Injectable
 import com.angelsheaven.demo.ui.MainActivity
 import com.angelsheaven.demo.utilities.MyLogger
 import com.angelsheaven.demo.utilities.mySnackBar
