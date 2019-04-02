@@ -11,7 +11,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion deps.versions.globalCompileSdkVersion
     defaultConfig {
-        applicationId "com.angelsheaven.transpire"
+        applicationId "com.angelsheaven.demo"
         minSdkVersion deps.versions.globalMinSdkVersion
         targetSdkVersion deps.versions.globalTargetSdkVersion
         versionCode 1

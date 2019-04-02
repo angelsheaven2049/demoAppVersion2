@@ -5,7 +5,7 @@
             app:startDestination="@id/list_article_dest">
 
     <fragment android:id="@+id/list_article_dest"
-              android:name="com.angelsheaven.transpire.ui.listArticle.DisplayListArticlesFragment"
+              android:name="com.angelsheaven.demo.ui.listArticle.DisplayListArticlesFragment"
               android:label="@string/labelListArticleScreen"
               tools:layout="@layout/fragment_display_list_articles">
         <action
@@ -15,7 +15,7 @@
                 android:id="@+id/move_from_list_news_to_view_news_detail"/>
     </fragment>
     <fragment android:id="@+id/view_article_detail_dest"
-              android:name="com.angelsheaven.transpire.ui.viewNewsDetail.ViewArticleDetailFragment"
+              android:name="com.angelsheaven.demo.ui.viewNewsDetail.ViewArticleDetailFragment"
               android:label="@string/labelViewArticleDetailDest" tools:layout="@layout/fragment_view_article_detail">
         <argument
                 android:name="article_id"

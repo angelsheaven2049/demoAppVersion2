@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
         <variable name="viewmodel"
-                  type="com.angelsheaven.transpire.ui.viewNewsDetail.ViewNewsDetailFragmentViewModel"/>
+                  type="com.angelsheaven.demo.ui.viewNewsDetail.ViewNewsDetailFragmentViewModel"/>
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/parent_layout_view_item_detail"
