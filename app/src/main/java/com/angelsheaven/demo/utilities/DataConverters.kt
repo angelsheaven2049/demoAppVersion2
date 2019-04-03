@@ -17,7 +17,7 @@ class DataConverters{
      * @return A Json String of converted data
      */
     @TypeConverter
-    fun fromCategoriesValueToList(categoriesList:List<String>?):String?{
+    fun fromCategoriesValueToList(categoriesList:List<String>):String?{
         categoriesList?.run {
             return Gson().toJson(this)
         }
@@ -30,7 +30,7 @@ class DataConverters{
      * @return A converted String list of Categories
      */
     @TypeConverter
-    fun jsonToCategoriesValues(categoriesJsonStringValue:String?):List<String>?{
+    fun jsonToCategoriesValues(categoriesJsonStringValue:String):List<String>?{
         val objects:Array<String>? = Gson().fromJson(categoriesJsonStringValue,Array<String>::class.java)
         return objects?.toList()
     }
@@ -41,7 +41,7 @@ class DataConverters{
      * @return A string json of converted object
      */
     @TypeConverter
-    fun fromEnclosureValueToList(enclosure:Enclosure?):String?{
+    fun fromEnclosureValueToList(enclosure:Enclosure):String?{
         enclosure?.run {
             return Gson().toJson(this)
         }
@@ -54,7 +54,7 @@ class DataConverters{
      * @return converted Enclosure object
      */
     @TypeConverter
-    fun jsonToEnclosure(enclosureJsonStringValue:String?): Enclosure? {
+    fun jsonToEnclosure(enclosureJsonStringValue:String): Enclosure? {
         return Gson().fromJson(enclosureJsonStringValue,Enclosure::class.java)
     }
 }

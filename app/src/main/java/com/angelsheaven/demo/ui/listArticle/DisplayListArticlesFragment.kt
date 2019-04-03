@@ -48,7 +48,9 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
             DisplayListArticlesFragmentDirections.moveFromListNewsToViewNewsDetail(
                 newsId
             )
-        findNavController().navigate(newsDetailsScreen)
+
+        if (findNavController().currentDestination?.id == R.id.list_article_dest)
+            findNavController().navigate(newsDetailsScreen)
     }
 
     /**

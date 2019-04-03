@@ -68,7 +68,7 @@ class DisplayListArticlesFragmentViewModel @Inject constructor(private val repos
         repository.resetNetWorkErrorValue()
     }
 
-    fun getErrorMessage(errorCode: Int?): String {
+    fun getErrorMessage(errorCode: Int): String {
         return when (errorCode) {
             NetworkContract.SERVER_ERROR -> app.getString(R.string.serverResponseErrorNotification)
 

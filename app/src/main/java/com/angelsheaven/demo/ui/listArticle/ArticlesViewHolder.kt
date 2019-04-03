@@ -19,12 +19,10 @@ class ArticlesViewHolder(holderView: View) :
     /**
      * Bind data to Wigetview on article item layout
      */
-    fun bindTo(news: Article?) {
-        news?.run {
-            itemView.tv_article_title.text = this.title
-            itemView.tv_article_publish_date.text = this.getFormattedPublishDate()
-            itemView.tv_article_publish_time.text = this.getFormattedPublishTime()
-            this.getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
-        }
+    fun bindTo(news: Article) {
+        itemView.tv_article_title.text = news.title
+        itemView.tv_article_publish_date.text = news.getFormattedPublishDate()
+        itemView.tv_article_publish_time.text = news.getFormattedPublishTime()
+        news.getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
     }
 }

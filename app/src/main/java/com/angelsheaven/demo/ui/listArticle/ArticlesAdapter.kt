@@ -47,20 +47,21 @@ class ArticlesAdapter(
      */
     override fun getItemViewType(position: Int): Int {
         val article = getItem(position) as Article
-        log("Top article ${article.topArticle} position $position")
         return if (article.topArticle) topArticleView else downArticleView
     }
 
     override fun onBindViewHolder(holder: ArticlesViewHolder, position: Int) {
 
-        holder.bindTo(getItem(position))
+        val item = getItem(position)
 
-        /**
-         * Register listener to handle user click event on articles item
-         */
-        holder.itemView.setOnClickListener {
-            if (position < itemCount) {
-                this.getItem(position)?.run {
+        item?.run {
+            holder.bindTo(this)
+
+            /**
+             * Register listener to handle user click event on articles item
+             */
+            holder.itemView.setOnClickListener {
+                if (position < itemCount) {
                     onUserClickOnItem(this.roomId)
                 }
             }
