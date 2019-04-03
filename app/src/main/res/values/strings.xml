@@ -1,5 +1,5 @@
 <resources>
-    <string name="appName">Transpire</string>
+    <string name="appName">Demo</string>
     <string name="defaultMissingInfo">N/A</string>
     <string name="unableToAccessServerNotification">Unable to access server! Please check your network</string>
     <string name="serverResponseErrorNotification">Server return error! Please try later</string>
