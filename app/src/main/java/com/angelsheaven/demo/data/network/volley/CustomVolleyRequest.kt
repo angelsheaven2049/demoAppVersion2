@@ -15,9 +15,9 @@ import java.nio.charset.Charset
  */
 class CustomVolleyRequest(
     method: Int,
-    url: String?,
+    url: String,
     private val listener: Response.Listener<JSONObject>,
-    errorListener: Response.ErrorListener?
+    errorListener: Response.ErrorListener
 ) : Request<JSONObject>(method, url, errorListener) {
 
     private val timeOutMs by lazy { DefaultRetryPolicy.DEFAULT_TIMEOUT_MS }
@@ -61,7 +61,7 @@ class CustomVolleyRequest(
     }
 
     /**
-     * Set priority for request 
+     * Set priority for request
      * @param priority priority to set
      */
     fun setPriority(priority: Priority) {

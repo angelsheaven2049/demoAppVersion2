@@ -8,7 +8,7 @@ import com.angelsheaven.demo.data.storage.Feed
  * from server
  */
 data class ServerResponse(
-    val status: String? = null,
+    val status: String,
     val feed: Feed? = null,
     val items: List<Article>? = null
 )
