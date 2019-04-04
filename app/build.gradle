@@ -117,6 +117,8 @@ dependencies {
     //Unit test
     testImplementation deps.test.local
     testImplementation deps.test.mockito_core
+    //this would allow to mock final object in kotlin
+    testImplementation 'org.mockito:mockito-inline:2.8.47'
 
     //Integration test
     androidTestImplementation deps.test.test_core
