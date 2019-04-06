@@ -11,7 +11,7 @@ import com.angelsheaven.demo.R
 import com.angelsheaven.demo.data.ArticleLoadResult
 import com.angelsheaven.demo.data.Repository
 import com.angelsheaven.demo.data.network.NetworkContract
-import com.angelsheaven.demo.data.storage.Article
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.MyLogger
 import javax.inject.Inject
 

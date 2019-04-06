@@ -2,7 +2,7 @@ package com.angelsheaven.demo.ui.listArticle
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.angelsheaven.demo.data.storage.Article
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.ImageRequester
 import com.angelsheaven.demo.utilities.MyLogger
 import kotlinx.android.synthetic.main.article_item_layout.view.*

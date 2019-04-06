@@ -2,6 +2,7 @@ package com.angelsheaven.demo.data.storage
 
 import androidx.paging.DataSource
 import androidx.sqlite.db.SimpleSQLiteQuery
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.data.storage.DatabaseContract.SELECT_ARTICLE_DETAIL
 import com.angelsheaven.demo.testing.OpenForTesting
 import com.angelsheaven.demo.utilities.MyLogger

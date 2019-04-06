@@ -3,6 +3,7 @@ package com.angelsheaven.demo.data.storage
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.DataConverters
 
 /**

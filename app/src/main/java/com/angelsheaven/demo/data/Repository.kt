@@ -10,7 +10,6 @@ import com.angelsheaven.demo.data.network.NetworkContract.parseArticles
 import com.angelsheaven.demo.data.network.NetworkDataSource
 import com.angelsheaven.demo.data.network.ServerResponse
 import com.angelsheaven.demo.data.network.volley.RequestResult
-import com.angelsheaven.demo.data.storage.Article
 import com.angelsheaven.demo.data.storage.StorageDataSource
 import com.angelsheaven.demo.testing.OpenForTesting
 import com.angelsheaven.demo.utilities.MyLogger

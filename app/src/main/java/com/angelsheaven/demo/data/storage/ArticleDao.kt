@@ -3,6 +3,7 @@ package com.angelsheaven.demo.data.storage
 import androidx.paging.DataSource
 import androidx.room.*
 import androidx.sqlite.db.SupportSQLiteQuery
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.data.storage.DatabaseContract.DELETE_ALL_ARTICLES
 import com.angelsheaven.demo.data.storage.DatabaseContract.GET_ARTICLES
 import io.reactivex.Flowable

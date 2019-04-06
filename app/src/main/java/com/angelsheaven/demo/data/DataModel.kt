@@ -1,4 +1,4 @@
-package com.angelsheaven.demo.data.storage
+package com.angelsheaven.demo.data
 
 import android.text.Html
 import android.text.Spanned

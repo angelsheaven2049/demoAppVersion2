@@ -1,7 +1,7 @@
 package com.angelsheaven.demo.data.network
 
-import com.angelsheaven.demo.data.storage.Article
-import com.angelsheaven.demo.data.storage.Feed
+import com.angelsheaven.demo.data.Article
+import com.angelsheaven.demo.data.Feed
 
 /**
  * This class defines response object

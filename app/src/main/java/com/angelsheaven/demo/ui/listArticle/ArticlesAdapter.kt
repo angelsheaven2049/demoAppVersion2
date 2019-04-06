@@ -21,7 +21,7 @@ import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import com.angelsheaven.demo.R
-import com.angelsheaven.demo.data.storage.Article
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.MyLogger
 
 /**

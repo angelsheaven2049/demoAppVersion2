@@ -1,6 +1,6 @@
 package com.angelsheaven.demo.data.network
 
-import com.angelsheaven.demo.data.storage.Article
+import com.angelsheaven.demo.data.Article
 
 /**
  * a contract defines parameters for

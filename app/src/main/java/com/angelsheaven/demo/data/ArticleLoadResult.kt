@@ -18,7 +18,6 @@ package com.angelsheaven.demo.data
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import com.angelsheaven.demo.data.storage.Article
 
 /**
  * ArticleLoadResult from a loadArticles, which contains LiveData<List<Repo>> holding query data,

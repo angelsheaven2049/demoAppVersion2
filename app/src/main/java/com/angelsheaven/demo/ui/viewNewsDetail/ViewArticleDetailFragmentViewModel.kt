@@ -3,7 +3,7 @@ package com.angelsheaven.demo.ui.viewNewsDetail
 import androidx.databinding.ObservableField
 import androidx.lifecycle.ViewModel
 import com.angelsheaven.demo.data.Repository
-import com.angelsheaven.demo.data.storage.Article
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.MyLogger
 import io.reactivex.Flowable
 import javax.inject.Inject

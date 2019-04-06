@@ -1,7 +1,7 @@
 package com.angelsheaven.demo.utilities
 
 import androidx.room.TypeConverter
-import com.angelsheaven.demo.data.storage.Enclosure
+import com.angelsheaven.demo.data.Enclosure
 import com.google.gson.Gson
 
 /**
@@ -41,7 +41,7 @@ class DataConverters{
      * @return A string json of converted object
      */
     @TypeConverter
-    fun fromEnclosureValueToList(enclosure:Enclosure):String?{
+    fun fromEnclosureValueToList(enclosure: Enclosure):String?{
         enclosure?.run {
             return Gson().toJson(this)
         }
@@ -55,6 +55,6 @@ class DataConverters{
      */
     @TypeConverter
     fun jsonToEnclosure(enclosureJsonStringValue:String): Enclosure? {
-        return Gson().fromJson(enclosureJsonStringValue,Enclosure::class.java)
+        return Gson().fromJson(enclosureJsonStringValue, Enclosure::class.java)
     }
 }
