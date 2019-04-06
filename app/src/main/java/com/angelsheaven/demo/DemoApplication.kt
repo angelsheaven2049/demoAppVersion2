@@ -14,7 +14,7 @@ import javax.inject.Inject
  * @author Quan Nguyen
  */
 
-open class DemoApplication:Application(), HasActivityInjector {
+class DemoApplication:Application(), HasActivityInjector {
 
     @Inject
     lateinit var dispatchingAndroidInjector: DispatchingAndroidInjector<Activity>
@@ -34,4 +34,7 @@ open class DemoApplication:Application(), HasActivityInjector {
     }
 
     override fun activityInjector(): AndroidInjector<Activity> = dispatchingAndroidInjector
+
 }
+
+
