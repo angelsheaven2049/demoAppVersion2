@@ -21,7 +21,6 @@ class DataConverters{
         categoriesList?.run {
             return Gson().toJson(this)
         }
-        return null
     }
 
     /**
@@ -45,7 +44,6 @@ class DataConverters{
         enclosure?.run {
             return Gson().toJson(this)
         }
-        return null
     }
 
     /**
