@@ -11,7 +11,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="OnActivityCreated" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AvailableLibraryUpdateStorage">
@@ -48,7 +49,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7f8cf1-c3a8-4f20-83dc-2575b2aaf2b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +94,38 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/DemoApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="e#47#699#0" expanded="true" />
+                <element signature="e#2690#3543#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragment.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-              <folding>
-                <element signature="e#47#699#0" expanded="true" />
-                <element signature="e#2690#3543#0" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -137,33 +168,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/MyExtensions.kt">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/ImageRequester.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/DataConverters.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/BindingAdapters.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -262,7 +266,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/TranspireApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/DataConverters.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragmentViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt" />
@@ -275,12 +278,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/ViewModelContract.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/ViewModelContract.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/viewNewsDetail/ViewArticleDetailFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/DemoApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt" />
       </list>
     </option>
   </component>
@@ -616,7 +620,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="807" y="0" width="633" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -632,10 +636,10 @@
       <window_info anchor="bottom" id="Run" order="1" weight="0.39033458" />
       <window_info anchor="bottom" id="Android Profiler" order="2" weight="0.32928064" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50572246" side_tool="true" weight="0.2897196" />
-      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49774265" weight="0.43494424" />
+      <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.49774265" weight="0.43422732" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.49213162" weight="0.1954023" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.49213162" weight="0.22492401" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32826748" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3135068" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.46104726" />
@@ -706,9 +710,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="upload code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/assetWizardSettings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -753,13 +754,6 @@
             <element signature="e#7594#7595#0" expanded="true" />
             <element signature="e#7642#7643#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -949,13 +943,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/viewNewsDetail/ViewArticleDetailFragmentViewModel.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1021,7 +1008,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/DemoApplication.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -1035,14 +1022,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.navigation/navigation-fragment-ktx/1.0.0-rc02/f1f9c95dbec6af1064f09f8e8627a48abc9b3c3e/navigation-fragment-ktx-1.0.0-rc02-sources.jar!/androidx/navigation/fragment/Fragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+        <state relative-caret-position="521">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="e#47#699#0" expanded="true" />
             <element signature="e#2690#3543#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/ArticlesViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>

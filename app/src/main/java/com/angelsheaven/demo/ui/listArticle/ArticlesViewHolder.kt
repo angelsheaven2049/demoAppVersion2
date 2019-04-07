@@ -14,15 +14,32 @@ import kotlinx.android.synthetic.main.article_item_layout.view.*
  */
 class ArticlesViewHolder(holderView: View) :
     RecyclerView.ViewHolder(holderView)
-    , MyLogger {
+    , MyLogger, View.OnClickListener {
+
+    init {
+        holderView.setOnClickListener(this)
+    }
 
     /**
      * Bind data to Wigetview on article item layout
      */
-    fun bindTo(news: Article) {
-        itemView.tv_article_title.text = news.title
-        itemView.tv_article_publish_date.text = news.getFormattedPublishDate()
-        itemView.tv_article_publish_time.text = news.getFormattedPublishTime()
-        news.getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
+    private lateinit var mNews: Article
+    private lateinit var mOnUserClickOnItem: (Int) -> Unit
+
+    fun bindTo(news: Article, onUserClickOnItem: (Int) -> Unit) {
+        mNews = news
+        mOnUserClickOnItem = onUserClickOnItem
+        itemView.tv_article_title.text = mNews.title
+        itemView.tv_article_publish_date.text = mNews.getFormattedPublishDate()
+        itemView.tv_article_publish_time.text = mNews.getFormattedPublishTime()
+        mNews.getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
     }
+
+    override fun onClick(view: View?) {
+        /**
+         * Register listener to handle user click event on articles item
+         */
+        mOnUserClickOnItem(mNews.roomId)
+    }
+
 }

@@ -29,7 +29,7 @@ import com.angelsheaven.demo.utilities.MyLogger
  * articles to user
  */
 class ArticlesAdapter(
-    val onUserClickOnItem: (Int) -> Unit
+    private val onUserClickOnItem: (Int) -> Unit
 ) : PagedListAdapter<Article, ArticlesViewHolder>(diffCallback), MyLogger {
 
     /**
@@ -55,18 +55,8 @@ class ArticlesAdapter(
         val item = getItem(position)
 
         item?.run {
-            holder.bindTo(this)
-
-            /**
-             * Register listener to handle user click event on articles item
-             */
-            holder.itemView.setOnClickListener {
-                if (position < itemCount) {
-                    onUserClickOnItem(this.roomId)
-                }
-            }
+            holder.bindTo(this, onUserClickOnItem)
         }
-
 
     }
 
