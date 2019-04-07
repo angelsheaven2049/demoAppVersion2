@@ -27,12 +27,16 @@ class ArticlesViewHolder(holderView: View) :
     private lateinit var mOnUserClickOnItem: (Int) -> Unit
 
     fun bindTo(news: Article, onUserClickOnItem: (Int) -> Unit) {
+
         mNews = news
         mOnUserClickOnItem = onUserClickOnItem
-        itemView.tv_article_title.text = mNews.title
-        itemView.tv_article_publish_date.text = mNews.getFormattedPublishDate()
-        itemView.tv_article_publish_time.text = mNews.getFormattedPublishTime()
-        mNews.getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
+
+        with(mNews) {
+            itemView.tv_article_title.text = title
+            itemView.tv_article_publish_date.text = getFormattedPublishTime()
+            getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
+        }
+
     }
 
     override fun onClick(view: View?) {
