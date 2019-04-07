@@ -16,13 +16,13 @@
 
 package com.angelsheaven.demo.ui.listArticle
 
-import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import com.angelsheaven.demo.R
 import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.MyLogger
+import com.angelsheaven.demo.utilities.inflate
 
 /**
  * This class is used to hold and handle how to display
@@ -34,8 +34,8 @@ class ArticlesAdapter(
 
     /**
      * View type to display top article and down articles
-     * firtViewType: top article
-     * downArticleView: down article
+     * 1: top article type
+     * 2: below article type
      */
     private val topArticleView = 1
     private val downArticleView = 2
@@ -68,8 +68,7 @@ class ArticlesAdapter(
         val layoutId = if (viewType == topArticleView) R.layout.top_large_article_item_layout else
             R.layout.article_item_layout
 
-        val layoutView = LayoutInflater.from(parent.context)
-            .inflate(layoutId, parent, false)
+        val layoutView = parent.inflate(layoutId, false)
 
         return ArticlesViewHolder(layoutView)
     }

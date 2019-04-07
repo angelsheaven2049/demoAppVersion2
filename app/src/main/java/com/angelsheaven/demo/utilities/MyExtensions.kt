@@ -1,7 +1,10 @@
 package com.angelsheaven.demo.utilities
 
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.TextView
+import androidx.annotation.LayoutRes
 import com.angelsheaven.demo.R
 import com.google.android.material.snackbar.Snackbar
 
@@ -32,3 +35,6 @@ fun View.mySnackBar(message: String): Snackbar {
     }
 }
 
+fun ViewGroup.inflate(@LayoutRes layoutRes: Int, attachToRoot: Boolean = false): View {
+    return LayoutInflater.from(context).inflate(layoutRes, this, attachToRoot)
+}
