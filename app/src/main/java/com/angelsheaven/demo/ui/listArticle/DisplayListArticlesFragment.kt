@@ -58,6 +58,19 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
      */
     private lateinit var mArticlesAdapter: ArticlesAdapter
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        /**
+         * Register a listener to handle request refreshingd ata
+         * from mainactivity
+         */
+        val mainActivityViewModel = (activity as MainActivity).mViewModel
+        mainActivityViewModel.requestRefreshData.observe(this, Observer { requested ->
+            if (requested)
+                mViewModel.loadArticles()
+        })
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -131,18 +144,7 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
         })
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        /**
-         * Register a listener to handle request refreshingd ata
-         * from mainactivity
-         */
-        val mainActivityViewModel = (activity as MainActivity).mViewModel
-        mainActivityViewModel.requestRefreshData.observe(this, Observer { requested ->
-            if (requested)
-                mViewModel.loadArticles()
-        })
-    }
+
 
 }
 
