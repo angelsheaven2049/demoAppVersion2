@@ -17,21 +17,22 @@ import com.google.android.material.snackbar.Snackbar
  */
 fun View.mySnackBar(message: String): Snackbar {
     return Snackbar.make(this, message, Snackbar.LENGTH_LONG).apply {
-        val snackBarView = this@apply.view
 
-        /**
-         * Align center for TextView message on Snackbar
-         */
-        val snackBarTextView = snackBarView
+        val snackBarTextView = view
             .findViewById<TextView>(com.google.android.material.R.id.snackbar_text)
-        snackBarTextView.textAlignment = View.TEXT_ALIGNMENT_CENTER
-        snackBarTextView.setTextColor(this.context.getColor(R.color.text_color_snackbar))
 
-        /**
-         * @backgroundColorResourceId is not null then get color and set to snackbar
-         */
-        val color = context.getColor(R.color.snackbarBackgroundColor)
-        snackBarView.setBackgroundColor(color)
+        with(snackBarTextView) {
+            /**
+             * Align center for TextView message on Snackbar
+             */
+            textAlignment = View.TEXT_ALIGNMENT_CENTER
+            setTextColor(context.getColor(R.color.text_color_snackbar))
+            /**
+             * @backgroundColorResourceId is not null then get color and set to snackbar
+             */
+            setBackgroundColor(context.getColor(R.color.snackbarBackgroundColor))
+        }
+
     }
 }
 
