@@ -38,14 +38,14 @@ data class Enclosure(
 @Entity(tableName = TABLE_ARTICLE)
 data class Article(
     @PrimaryKey(autoGenerate = true) var roomId: Int = 0,
-    val title: String? = "",
-    val pubDate: String? = "",
-    val link: String? = "",
-    val guid: String? = "",
-    val author: String? = "",
-    val thumbnail: String? = "",
-    val description: String? = "",
-    val content: String? = "",
+    val title: String? = null,
+    val pubDate: String? = null,
+    val link: String? = null,
+    val guid: String? = null,
+    val author: String? = null,
+    val thumbnail: String? = null,
+    val description: String? = null,
+    val content: String? = null,
     val enclosure: Enclosure? = null,
     val categories: List<String>? = null,
     var topArticle: Boolean = false
@@ -53,13 +53,16 @@ data class Article(
 
     @Ignore
     private val pubDateObject =
-        if (!pubDate.isNullOrEmpty()) SimpleDateFormat(SERVER_DATE_TIME_PATTERN,Locale.getDefault()).parse(pubDate) else null
+        if (!pubDate.isNullOrEmpty()) SimpleDateFormat(
+            SERVER_DATE_TIME_PATTERN,
+            Locale.getDefault()
+        ).parse(pubDate) else null
 
     fun getFormattedPublishDate(): String {
         return if (pubDateObject != null) {
             val formatter = SimpleDateFormat(DATE_FORMATTER_PATTERN, Locale.getDefault())
             formatter.timeZone = TimeZone.getTimeZone("UTC")
-            val dateTime = SimpleDateFormat(SERVER_DATE_TIME_PATTERN,Locale.getDefault()).parse(pubDate)
+            val dateTime = SimpleDateFormat(SERVER_DATE_TIME_PATTERN, Locale.getDefault()).parse(pubDate)
             formatter.format(dateTime).trim()
         } else ""
     }
@@ -74,7 +77,7 @@ data class Article(
     }
 
     fun getFormattedContent(): Spanned? {
-        return Html.fromHtml(content, Html.FROM_HTML_MODE_COMPACT)
+        return Html.fromHtml(content ?: "", Html.FROM_HTML_MODE_COMPACT)
     }
 
 

@@ -114,6 +114,12 @@ dependencies {
     //Volley
     implementation deps.volley.volley
 
+    //Detect leakmemory
+    debugImplementation deps.leak.debug
+    releaseImplementation deps.leak.release
+    debugImplementation deps.leak.support_fragment
+
+
     //Unit test
     testImplementation deps.test.local
     testImplementation deps.test.mockito_core

@@ -33,8 +33,8 @@ object BindingAdapters {
      * @inputText input inputText needed to check
      */
     @BindingAdapter("app:hideIfEmpty")
-    @JvmStatic fun hideIfEmpty(view: View, inputText:String){
-        view.visibility = if(inputText.isEmpty()) View.GONE else View.VISIBLE
+    @JvmStatic fun hideIfEmpty(view: View, inputText:String?){
+        view.visibility = if(inputText.isNullOrEmpty()) View.GONE else View.VISIBLE
     }
 
 }

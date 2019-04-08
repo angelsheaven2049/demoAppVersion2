@@ -64,6 +64,7 @@ versions.espresso_idling_resource = "3.1.0"
 versions.dagger = "2.16"
 versions.glide = "4.8.0@aar"
 versions.volley = "1.1.0"
+versions.leakCanary = "1.6.3"
 
 deps.versions = versions
 
@@ -221,6 +222,14 @@ def volley = [:]
 volley.volley = "com.android.volley:volley:$versions.volley"
 
 deps.volley = volley
+
+//Detect memory leaking
+def leak = [:]
+leak.debug = "com.squareup.leakcanary:leakcanary-android:$versions.leakCanary"
+leak.release = "com.squareup.leakcanary:leakcanary-android-no-op:$versions.leakCanary"
+leak.support_fragment = "com.squareup.leakcanary:leakcanary-support-fragment:$versions.leakCanary"
+
+deps.leak = leak
 
 
 

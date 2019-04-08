@@ -3,6 +3,7 @@ package com.angelsheaven.demo
 import android.app.Activity
 import android.app.Application
 import com.angelsheaven.demo.di.AppInjector
+import com.squareup.leakcanary.LeakCanary
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
@@ -30,6 +31,12 @@ class DemoApplication:Application(), HasActivityInjector {
         instance = this
 
         AppInjector.init(this)
+
+        if(LeakCanary.isInAnalyzerProcess(this)){
+            return
+        }
+
+        LeakCanary.install(this)
 
     }
 
