@@ -129,8 +129,10 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
 
         mViewModel
             .networkErrors.observe(this, Observer { errorCode ->
-            val errorMessageToUser = mViewModel.getErrorMessage(errorCode)
             errorCode?.run {
+
+                val errorMessageToUser = mViewModel.getErrorMessage(errorCode)
+
                 this@DisplayListArticlesFragment.view?.let { view ->
                     view.mySnackBar(
                         errorMessageToUser
