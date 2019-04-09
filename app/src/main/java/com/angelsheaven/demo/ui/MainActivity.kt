@@ -86,4 +86,5 @@ class MainActivity : AppCompatActivity(),
     }
 
     override fun supportFragmentInjector() = dispatchingAndroidInjector
+
 }
