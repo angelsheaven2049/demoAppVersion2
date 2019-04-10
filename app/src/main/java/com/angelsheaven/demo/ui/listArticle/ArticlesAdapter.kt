@@ -16,13 +16,17 @@
 
 package com.angelsheaven.demo.ui.listArticle
 
+import android.view.View
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.RecyclerView
 import com.angelsheaven.demo.R
 import com.angelsheaven.demo.data.Article
+import com.angelsheaven.demo.utilities.ImageRequester
 import com.angelsheaven.demo.utilities.MyLogger
 import com.angelsheaven.demo.utilities.inflate
+import kotlinx.android.synthetic.main.article_item_layout.view.*
 
 /**
  * This class is used to hold and handle how to display
@@ -30,7 +34,7 @@ import com.angelsheaven.demo.utilities.inflate
  */
 class ArticlesAdapter(
     private val onUserClickOnItem: (Int) -> Unit
-) : PagedListAdapter<Article, ArticlesViewHolder>(diffCallback), MyLogger {
+) : PagedListAdapter<Article, ArticlesAdapter.ArticlesViewHolder>(diffCallback), MyLogger {
 
     /**
      * View type to display top article and down articles
@@ -86,6 +90,47 @@ class ArticlesAdapter(
             override fun areContentsTheSame(oldItem: Article, newItem: Article): Boolean =
                 oldItem == newItem
         }
+    }
+
+    /**
+     * This class is used to handle how to display
+     * data on each row of article list
+     * @see ArticlesViewHolder
+     */
+    inner class ArticlesViewHolder(holderView: View) :
+        RecyclerView.ViewHolder(holderView)
+        , MyLogger, View.OnClickListener {
+
+        init {
+            holderView.setOnClickListener(this)
+        }
+
+        /**
+         * Bind data to Wigetview on article item layout
+         */
+        private lateinit var mNews: Article
+        private lateinit var mOnUserClickOnItem: (Int) -> Unit
+
+        fun bindTo(news: Article, onUserClickOnItem: (Int) -> Unit) {
+
+            mNews = news
+            mOnUserClickOnItem = onUserClickOnItem
+
+            with(mNews) {
+                itemView.tv_article_title.text = title
+                itemView.tv_article_publish_date.text = getFormattedPublishTime()
+                getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
+            }
+
+        }
+
+        override fun onClick(view: View?) {
+            /**
+             * Register listener to handle user click event on articles item
+             */
+            mOnUserClickOnItem(mNews.roomId)
+        }
+
     }
 
 }
