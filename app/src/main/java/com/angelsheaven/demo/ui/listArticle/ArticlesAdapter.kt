@@ -68,7 +68,7 @@ class ArticlesAdapter(
 
         val inlater = LayoutInflater.from(parent.context)
 
-        val binding = ArticleItemLayoutBinding.inflate(inlater)
+        val binding = ArticleItemLayoutBinding.inflate(inlater,parent,false)
 
         val layoutView = parent.inflate(layoutId, false)
 
