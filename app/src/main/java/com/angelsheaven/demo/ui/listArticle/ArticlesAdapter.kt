@@ -25,6 +25,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.databinding.ArticleItemLayoutBinding
+import com.angelsheaven.demo.databinding.TopLargeArticleItemLayoutBinding
 import com.angelsheaven.demo.utilities.ImageRequester
 import com.angelsheaven.demo.utilities.MyLogger
 import kotlinx.android.synthetic.main.article_item_layout.view.*
@@ -60,12 +61,12 @@ class ArticlesAdapter(
          * If topArticleView set viewlayout is top_large_article_item_layout
          * otherwise article_item_layout
          */
-        /*val layoutId = if (viewType == topArticleView) R.layout.top_large_article_item_layout else
-            R.layout.article_item_layout*/
 
         val inlater = LayoutInflater.from(parent.context)
 
-        val binding = ArticleItemLayoutBinding.inflate(inlater,parent,false)
+        val binding =
+            if (viewType == topArticleView) TopLargeArticleItemLayoutBinding.inflate(inlater, parent, false) else
+                ArticleItemLayoutBinding.inflate(inlater, parent, false)
 
         return ArticlesViewHolder(binding)
     }
@@ -119,7 +120,13 @@ class ArticlesAdapter(
             mOnUserClickOnItem = onUserClickOnItem
 
             with(mNews) {
-                (mBinding as ArticleItemLayoutBinding).article = mNews
+
+                if (mBinding is ArticleItemLayoutBinding) {
+                    mBinding.article = mNews
+                } else {
+                    (mBinding as TopLargeArticleItemLayoutBinding).article = mNews
+                }
+
                 getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
             }
 
