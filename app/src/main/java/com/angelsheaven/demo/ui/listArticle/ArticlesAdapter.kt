@@ -77,11 +77,10 @@ class ArticlesAdapter(
 
     override fun onBindViewHolder(holder: ArticlesViewHolder, position: Int) {
 
-        val item = getItem(position)
+        val article = getItem(position)
 
-        item?.run {
-            holder.bindTo(this, onUserClickOnItem)
-            holder.setArticleItemClickLister(this@ArticlesAdapter)
+        article?.run {
+            holder.bindTo(this,this@ArticlesAdapter)
         }
 
     }
@@ -117,19 +116,19 @@ class ArticlesAdapter(
          * Bind data to Wigetview on article item layout
          */
         private lateinit var mNews: Article
-        private lateinit var mOnUserClickOnItem: (Int) -> Unit
 
-        fun bindTo(news: Article, onUserClickOnItem: (Int) -> Unit) {
+        fun bindTo(news: Article,listener: ArticleClickListener) {
 
             mNews = news
-            mOnUserClickOnItem = onUserClickOnItem
 
             with(mNews) {
 
                 if (mBinding is ArticleItemLayoutBinding) {
                     mBinding.article = mNews
+                    mBinding.articleClickListener = listener
                 } else {
                     (mBinding as TopLargeArticleItemLayoutBinding).article = mNews
+                    mBinding.articleClickListener = listener
                 }
 
                 mBinding.executePendingBindings()
@@ -139,13 +138,7 @@ class ArticlesAdapter(
 
         }
 
-        fun setArticleItemClickLister(listener: ArticleClickListener){
-            if (mBinding is ArticleItemLayoutBinding) {
-                mBinding.articleClickListener = listener
-            } else {
-                (mBinding as TopLargeArticleItemLayoutBinding).articleClickListener = listener
-            }
-        }
+
 
     }
 
