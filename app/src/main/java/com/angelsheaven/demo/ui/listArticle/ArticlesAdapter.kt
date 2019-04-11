@@ -19,15 +19,14 @@ package com.angelsheaven.demo.ui.listArticle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.ViewDataBinding
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.angelsheaven.demo.R
 import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.databinding.ArticleItemLayoutBinding
 import com.angelsheaven.demo.utilities.ImageRequester
 import com.angelsheaven.demo.utilities.MyLogger
-import com.angelsheaven.demo.utilities.inflate
 import kotlinx.android.synthetic.main.article_item_layout.view.*
 
 /**
@@ -64,13 +63,9 @@ class ArticlesAdapter(
         /*val layoutId = if (viewType == topArticleView) R.layout.top_large_article_item_layout else
             R.layout.article_item_layout*/
 
-        val layoutId = R.layout.article_item_layout
-
         val inlater = LayoutInflater.from(parent.context)
 
         val binding = ArticleItemLayoutBinding.inflate(inlater,parent,false)
-
-        val layoutView = parent.inflate(layoutId, false)
 
         return ArticlesViewHolder(binding)
     }
@@ -104,12 +99,12 @@ class ArticlesAdapter(
      * data on each row of article list
      * @see ArticlesViewHolder
      */
-    inner class ArticlesViewHolder(view: ArticleItemLayoutBinding) :
-        RecyclerView.ViewHolder(view.root)
+    inner class ArticlesViewHolder(private val mBinding: ViewDataBinding) :
+        RecyclerView.ViewHolder(mBinding.root)
         , MyLogger, View.OnClickListener {
 
         init {
-            view.root.setOnClickListener(this)
+            mBinding.root.setOnClickListener(this)
         }
 
         /**
@@ -124,9 +119,7 @@ class ArticlesAdapter(
             mOnUserClickOnItem = onUserClickOnItem
 
             with(mNews) {
-                itemView.tv_article_title.text = title
-                itemView.tv_article_publish_date.text = getFormattedPublishTime()
-                //binding.article = mNews
+                (mBinding as ArticleItemLayoutBinding).article = mNews
                 getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
             }
 
