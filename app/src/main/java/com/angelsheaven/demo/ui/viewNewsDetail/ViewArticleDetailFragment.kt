@@ -8,10 +8,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.angelsheaven.demo.R
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.databinding.FragmentViewArticleDetailBinding
 import com.angelsheaven.demo.di.Injectable
 import com.angelsheaven.demo.utilities.MyLogger
 import com.angelsheaven.demo.utilities.mySnackBar
+import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
@@ -34,6 +36,8 @@ class ViewArticleDetailFragment : Fragment(), Injectable, MyLogger {
     }
 
     private lateinit var mBinding: FragmentViewArticleDetailBinding
+    private var mArticleId: Int? = null
+    private var mObservableDetail: Flowable<Article>? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -50,29 +54,39 @@ class ViewArticleDetailFragment : Fragment(), Injectable, MyLogger {
              * list article fragment
              */
             val safeArgs = ViewArticleDetailFragmentArgs.fromBundle(bundle)
-            val mArticleId = safeArgs.articleId
+            mArticleId = safeArgs.articleId
 
-            /**
-             * Query article detail from local database
-             */
-            viewModel.getArticleDetailObservable(mArticleId)?.subscribeOn(Schedulers.io())
-                ?.observeOn(AndroidSchedulers.mainThread())
-                ?.subscribe({ returnedNewsDetail ->
-                    mBinding.viewmodel?.articleDetail?.set(returnedNewsDetail)
-                }, { error ->
-                    log("Unable to get article detail ${error.message}")
-                    view?.mySnackBar(
-                        getString(R.string.unable_to_get_article)
-                    )?.show()
-                })
-                ?.let {
-                    disposable.add(
-                        it
-                    )
-                }
+            mArticleId?.run {
+                /**
+                 * Query article detail from local database
+                 */
+                mObservableDetail = viewModel.getArticleDetailObservable(this)
+
+                mObservableDetail?.subscribeOn(Schedulers.io())
+                    ?.observeOn(AndroidSchedulers.mainThread())
+                    ?.subscribe({ returnedNewsDetail ->
+                        mBinding.viewmodel?.articleDetail?.set(returnedNewsDetail)
+                    }, { error ->
+                        log("Unable to get article detail ${error.message}")
+                        view?.mySnackBar(
+                            getString(R.string.unable_to_get_article)
+                        )?.show()
+                    })
+                    ?.let {
+                        disposable.add(
+                            it
+                        )
+                    }
+            }
+
         }
 
         return mBinding.root
+    }
+
+    override fun onPause() {
+        super.onPause()
+        mArticleId?.run { mObservableDetail?.unsubscribeOn(Schedulers.io()) }
     }
 
 }
