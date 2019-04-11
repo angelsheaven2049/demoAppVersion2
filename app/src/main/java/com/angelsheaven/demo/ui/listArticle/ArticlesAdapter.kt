@@ -17,7 +17,6 @@
 package com.angelsheaven.demo.ui.listArticle
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
@@ -38,7 +37,8 @@ import kotlinx.android.synthetic.main.article_item_layout.view.*
  */
 class ArticlesAdapter(
     private val onUserClickOnItem: (Int) -> Unit
-) : PagedListAdapter<Article, ArticlesAdapter.ArticlesViewHolder>(diffCallback), MyLogger {
+) : PagedListAdapter<Article, ArticlesAdapter.ArticlesViewHolder>(diffCallback)
+    , ArticleClickListener, MyLogger {
 
     /**
      * View type to display top article and down articles
@@ -81,6 +81,7 @@ class ArticlesAdapter(
 
         item?.run {
             holder.bindTo(this, onUserClickOnItem)
+            holder.setArticleItemClickLister(this@ArticlesAdapter)
         }
 
     }
@@ -99,6 +100,10 @@ class ArticlesAdapter(
         }
     }
 
+    override fun onArticleClicked(articleId: Int) {
+        onUserClickOnItem(articleId)
+    }
+
     /**
      * This class is used to handle how to display
      * data on each row of article list
@@ -106,11 +111,7 @@ class ArticlesAdapter(
      */
     inner class ArticlesViewHolder(private val mBinding: ViewDataBinding) :
         RecyclerView.ViewHolder(mBinding.root)
-        , MyLogger, View.OnClickListener {
-
-        init {
-            mBinding.root.setOnClickListener(this)
-        }
+        , MyLogger {
 
         /**
          * Bind data to Wigetview on article item layout
@@ -131,18 +132,27 @@ class ArticlesAdapter(
                     (mBinding as TopLargeArticleItemLayoutBinding).article = mNews
                 }
 
+                mBinding.executePendingBindings()
+
                 getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
             }
 
         }
 
-        override fun onClick(view: View?) {
-            /**
-             * Register listener to handle user click event on articles item
-             */
-            mOnUserClickOnItem(mNews.roomId)
+        fun setArticleItemClickLister(listener: ArticleClickListener){
+            if (mBinding is ArticleItemLayoutBinding) {
+                mBinding.articleClickListener = listener
+            } else {
+                (mBinding as TopLargeArticleItemLayoutBinding).articleClickListener = listener
+            }
         }
 
     }
 
 }
+
+interface ArticleClickListener {
+    fun onArticleClicked(articleId: Int)
+}
+
+
