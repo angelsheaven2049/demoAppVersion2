@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import com.angelsheaven.demo.R
+import com.angelsheaven.demo.databinding.FragmentDisplayListArticlesBinding
 import com.angelsheaven.demo.di.Injectable
 import com.angelsheaven.demo.ui.MainActivity
 import com.angelsheaven.demo.utilities.MyLogger
@@ -58,6 +59,8 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
      */
     private lateinit var mArticlesAdapter: ArticlesAdapter
 
+    private lateinit var mBinding: FragmentDisplayListArticlesBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         /**
@@ -75,8 +78,15 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+        mBinding = FragmentDisplayListArticlesBinding.inflate(inflater,container,false)
+
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_display_list_articles, container, false)
+
+        //return inflater.inflate(R.layout.fragment_display_list_articles, container, false)
+
+        return mBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -120,7 +130,9 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
     private fun initAdapter() {
         mArticlesAdapter = ArticlesAdapter(onUserClickItem)
 
-        lv_article_items.adapter = mArticlesAdapter
+        //lv_article_items.adapter = mArticlesAdapter
+
+        mBinding.myAdapter = mArticlesAdapter
 
         mViewModel
             .articles.observe(this, Observer {
@@ -145,7 +157,6 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
             }
         })
     }
-
 
 
 }
