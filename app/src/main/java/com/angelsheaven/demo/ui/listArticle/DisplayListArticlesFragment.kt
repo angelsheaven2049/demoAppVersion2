@@ -81,11 +81,6 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
 
         mBinding = FragmentDisplayListArticlesBinding.inflate(inflater,container,false)
 
-
-        // Inflate the layout for this fragment
-
-        //return inflater.inflate(R.layout.fragment_display_list_articles, container, false)
-
         return mBinding.root
     }
 
@@ -129,8 +124,6 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
      */
     private fun initAdapter() {
         mArticlesAdapter = ArticlesAdapter(onUserClickItem)
-
-        //lv_article_items.adapter = mArticlesAdapter
 
         mBinding.myAdapter = mArticlesAdapter
 
