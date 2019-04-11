@@ -19,10 +19,12 @@ package com.angelsheaven.demo.ui.listArticle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.angelsheaven.demo.R
 import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.databinding.ArticleItemLayoutBinding
 import com.angelsheaven.demo.databinding.TopLargeArticleItemLayoutBinding
@@ -62,11 +64,13 @@ class ArticlesAdapter(
          * otherwise article_item_layout
          */
 
-        val inlater = LayoutInflater.from(parent.context)
+        val layoutId = if (viewType == topArticleView) R.layout.top_large_article_item_layout else
+            R.layout.article_item_layout
 
-        val binding =
-            if (viewType == topArticleView) TopLargeArticleItemLayoutBinding.inflate(inlater, parent, false) else
-                ArticleItemLayoutBinding.inflate(inlater, parent, false)
+        val binding = DataBindingUtil.inflate<ViewDataBinding>(
+            LayoutInflater.from(parent.context),
+            layoutId, parent, false
+        )
 
         return ArticlesViewHolder(binding)
     }
