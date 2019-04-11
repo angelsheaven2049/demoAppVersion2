@@ -24,16 +24,31 @@ android {
             }
         }
     }
+
     buildTypes {
         debug {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
             shrinkResources false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-        release {
-            shrinkResources true
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+
+    bundle {
+        language {
+            enableSplit = true
+        }
+
+        density {
+            enableSplit = true
+        }
+
+        abi{
+            enableSplit = true
         }
     }
 
@@ -124,7 +139,6 @@ dependencies {
     debugImplementation deps.leak.debug
     releaseImplementation deps.leak.release
     debugImplementation deps.leak.support_fragment
-
 
     //Unit test
     testImplementation deps.test.local
