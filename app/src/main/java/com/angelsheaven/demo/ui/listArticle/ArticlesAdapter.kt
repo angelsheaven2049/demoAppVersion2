@@ -115,19 +115,19 @@ class ArticlesAdapter(
         /**
          * Bind data to Wigetview on article item layout
          */
-        private lateinit var mNews: Article
+        private lateinit var mArticle: Article
 
         fun bindTo(news: Article,listener: ArticleClickListener) {
 
-            mNews = news
+            mArticle = news
 
-            with(mNews) {
+            with(mArticle) {
 
                 if (mBinding is ArticleItemLayoutBinding) {
-                    mBinding.article = mNews
+                    mBinding.article = mArticle
                     mBinding.articleClickListener = listener
                 } else {
-                    (mBinding as TopLargeArticleItemLayoutBinding).article = mNews
+                    (mBinding as TopLargeArticleItemLayoutBinding).article = mArticle
                     mBinding.articleClickListener = listener
                 }
 
