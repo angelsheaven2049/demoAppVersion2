@@ -3,11 +3,11 @@ package com.angelsheaven.demo.data.network
 import com.android.volley.NoConnectionError
 import com.android.volley.Request
 import com.android.volley.Response
-import com.angelsheaven.demo.testing.OpenForTesting
-import com.angelsheaven.demo.utilities.MyLogger
 import com.angelsheaven.demo.data.network.volley.CustomVolleyRequest
 import com.angelsheaven.demo.data.network.volley.NetworkController
 import com.angelsheaven.demo.data.network.volley.RequestResult
+import com.angelsheaven.demo.testing.OpenForTesting
+import com.angelsheaven.demo.utilities.MyLogger
 import com.google.gson.Gson
 import javax.inject.Inject
 import javax.inject.Singleton

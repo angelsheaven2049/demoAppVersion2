@@ -36,7 +36,7 @@ class DemoApplication:Application(), HasActivityInjector {
             return
         }
 
-        LeakCanary.install(this)
+        //LeakCanary.install(this)
 
     }
 
