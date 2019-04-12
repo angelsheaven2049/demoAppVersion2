@@ -19,6 +19,9 @@ def versions = [:]
 versions.android_gradle_plugin = '3.3.2'
 versions.kotlin = "1.3.21"
 versions.navigation = "1.0.0-rc02"
+versions.globalCompileSdkVersion = 28
+versions.globalMinSdkVersion = 26
+versions.globalTargetSdkVersion = 26
 versions.anko = "0.10.8"
 versions.support_version = "1.0.0"
 versions.arch_version = "2.1.0-alpha02"
@@ -27,9 +30,6 @@ versions.junit_version = "4.13-beta-1"
 versions.support_test_version = "1.0.2"
 versions.room_version="2.1.0-alpha03"
 versions.work_version = "1.0.0-rc02"
-versions.globalCompileSdkVersion = 28
-versions.globalMinSdkVersion = 26
-versions.globalTargetSdkVersion = 26
 versions.topsnackbar = "1.1.1"
 versions.v4 = "1.0.0"
 versions.appcompat = "1.0.2"
@@ -144,7 +144,7 @@ deps.work_manager = work_manager
 
 //Core ktx
 def core_ktx = [:]
-core_ktx = "androidx.core:core-ktx:$versions.corektx"
+core_ktx.core = "androidx.core:core-ktx:$versions.corektx"
 
 deps.core_ktx = core_ktx
 
