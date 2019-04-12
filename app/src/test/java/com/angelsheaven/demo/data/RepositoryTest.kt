@@ -10,7 +10,7 @@ import org.mockito.Mockito.`when`
 class RepositoryTest {
 
     @Test
-    fun `data source returns a value`() {
+    fun `data source returns a article detail`() {
         val ds = Mockito.mock(StorageDataSource::class.java)
         `when`(ds.retrieveArticleDetail(0)).then {
             Flowable.just(Article(0))
