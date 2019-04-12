@@ -100,6 +100,7 @@ class ArticlesAdapter(
     }
 
     override fun onArticleClicked(articleId: Int) {
+        log("user click $articleId")
         onUserClickOnItem(articleId)
     }
 
