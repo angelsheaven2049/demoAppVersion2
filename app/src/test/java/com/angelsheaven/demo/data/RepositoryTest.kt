@@ -20,7 +20,9 @@ class RepositoryTest {
         assertNotNull(repository.retrieveArticleDetail(0))
     }
 
+    @Test
+    fun `empty database returns server value`() {
 
-
+    }
 
 }
