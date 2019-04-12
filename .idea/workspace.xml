@@ -49,13 +49,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7f8cf1-c3a8-4f20-83dc-2575b2aaf2b7" name="Default Changelist" comment="upload code">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/RepositoryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,19 +82,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="276">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/RepositoryTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="396">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#44#291#0" expanded="true" />
+                <element signature="e#36#203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,8 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/CustomVolleyRequest.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/data/network/volley/RequestResult.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/utilities/ImageRequester.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/ui/listArticle/ArticlesAdapter.kt" />
@@ -226,6 +228,8 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/RepositoryTest.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/RepositoryTest.kt" />
       </list>
     </option>
   </component>
@@ -242,7 +246,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="viewNewsDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +354,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -295,11 +373,11 @@
       <recent name="com.angelsheaven.teremdemoapp.data" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.angelsheaven.demo.data" />
       <recent name="com.angelsheaven.demo.data.storage" />
       <recent name="com.angelsheaven.transpire.ui.viewNewsDetail" />
       <recent name="com.angelsheaven.teremdemoapp.ui.login" />
       <recent name="com.angelsheaven.teremdemoapp.ui.listNews.savedNews" />
-      <recent name="com.angelsheaven.teremdemoapp.ui" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.angelsheaven.transpire.utilities" />
@@ -598,6 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="730" y="0" width="710" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -609,13 +688,13 @@
       <window_info id="Resources Explorer" order="7" weight="0.29041487" />
       <window_info id="Structure" order="8" sideWeight="0.5005066" side_tool="true" weight="0.3125" />
       <window_info anchor="bottom" auto_hide="true" id="Build" order="0" sideWeight="0.47603834" weight="0.30855018" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.3899868" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3899868" />
       <window_info anchor="bottom" id="Android Profiler" order="2" weight="0.3283767" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.51363635" side_tool="true" weight="0.43108505" />
       <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.48909092" weight="0.43108505" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.48636365" weight="0.21407625" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.48636365" weight="0.21343873" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32826748" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3135068" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.46104726" />
@@ -686,14 +765,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="upload code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/reports/profile/profile-2019-04-09-20-09-56.html" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/ImageRequester.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1015,19 +1086,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="262">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#44#291#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="276">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/RepositoryTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="e#44#291#0" expanded="true" />
+            <element signature="e#36#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
