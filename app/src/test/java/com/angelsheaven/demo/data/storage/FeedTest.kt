@@ -7,7 +7,7 @@ import org.junit.Test
 
 class FeedTest {
 
-    @Test fun test_twoSameFeeds(){
+    @Test fun `test two feeds are same`(){
         val firstFeed = Feed(
             "http://abc.com"
             , "Hello World"
@@ -29,7 +29,7 @@ class FeedTest {
         assertTrue(firstFeed == secondFeed)
     }
 
-    @Test fun test_twoDifferentFeeds(){
+    @Test fun `test two seeds are different`(){
         val firstFeed = Feed(
             "http://ddc.com"
             , "Hi World"
