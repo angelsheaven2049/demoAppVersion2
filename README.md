@@ -1,1 +1,2 @@
-# this is Quan Nguyen's demo app
+# This is Quan Nguyen's demo app
+# Demo MVVM model
