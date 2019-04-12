@@ -13,7 +13,7 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import com.angelsheaven.demo.R
-import com.angelsheaven.demo.ui.listArticle.ArticlesViewHolder
+import com.angelsheaven.demo.ui.listArticle.ArticlesAdapter
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -64,7 +64,7 @@ class MainActivityTest {
                 val randomArticleIndex = Random(this - 1).nextInt(Integer.SIZE - 1)
                 onView(withId(R.id.lv_article_items))
                     .perform(
-                        RecyclerViewActions.actionOnItemAtPosition<ArticlesViewHolder>
+                        RecyclerViewActions.actionOnItemAtPosition<ArticlesAdapter.ArticlesViewHolder>
                             (randomArticleIndex, click())
                     )
 
@@ -120,7 +120,7 @@ class MainActivityTest {
                 val randomArticleIndex = Random(this - 1).nextInt(Integer.SIZE - 1)
                 onView(withId(R.id.lv_article_items))
                     .perform(
-                        RecyclerViewActions.actionOnItemAtPosition<ArticlesViewHolder>
+                        RecyclerViewActions.actionOnItemAtPosition<ArticlesAdapter.ArticlesViewHolder>
                             (randomArticleIndex, click())
                     )
 

@@ -109,7 +109,7 @@ dependencies {
     //Paging
     implementation deps.paging.runtime
 
-    implementation deps.core_ktx
+    implementation deps.core_ktx.core
 
     //Kotlin coroutines
     implementation deps.coroutines.core
