@@ -44,7 +44,7 @@ versions.junit_local_test = "4.12"
 versions.assertion_junit = "1.1.0"
 versions.espresso_test = "3.1.1"
 versions.test_rule = "1.1.2-alpha01"
-versions.materialVersion = "1.1.0-alpha02"
+versions.material_version = "1.1.0-alpha02"
 versions.coroutineCore = "1.1.1"
 versions.kotlin_coroutine_adapter = "0.9.2"
 versions.rx_android = "2.0.1"
@@ -53,6 +53,7 @@ versions.support_annotations = "1.0.0"
 versions.runner = "1.1.0"
 versions.test_core = "1.0.0"
 versions.mockito_core = "2.8.9"
+versions.mockito_inline ="2.23.4"
 versions.hamcrest_library = "2.1"
 versions.assertion_truth = "1.0.0"
 versions.assertion_google_truth = "0.42"
@@ -89,7 +90,7 @@ deps.anko = anko
 
 //UI component libraries
 def ui = [:]
-ui.material_design = "com.google.android.material:material:$versions.materialVersion"
+ui.material_design = "com.google.android.material:material:$versions.material_version"
 ui.cardview = "androidx.cardview:cardview:$versions.support_version"
 ui.recyclerview = "androidx.recyclerview:recyclerview:$versions.support_version"
 ui.constraintlayout = "androidx.constraintlayout:constraintlayout:$versions.constraint_layout_version"
@@ -168,10 +169,10 @@ def test = [:]
 test.local = "junit:junit:$versions.junit_local_test"
 //Core library
 test.test_core = "androidx.test:core:$versions.test_core"
-
-
 test.mockito_core = "org.mockito:mockito-core:$versions.mockito_core"
 test.mockito_android = "org.mockito:mockito-android:$versions.mockito_core"
+//Required to open final class
+test.mockito_inline =  "org.mockito:mockito-inline:$versions.mockito_inline"
 //Assertion
 test.assertion_junit = "androidx.test.ext:junit:$versions.assertion_junit"
 test.assertion_truth = "androidx.test.ext:truth:$versions.assertion_truth"
