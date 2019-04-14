@@ -49,27 +49,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7f8cf1-c3a8-4f20-83dc-2575b2aaf2b7" name="Default Changelist" comment="upload code">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_23_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_inline_2_23_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_6_14_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_6_14_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_8_47_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_inline_2_8_47_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_5_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/versions.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,84 +89,73 @@
     <favorites_list name="teremDemoApp" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="814">
-                  <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/SingleFragmentActivity.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/OpenForTesting.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="e#0#619#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="113">
-                  <caret line="142" column="15" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/FeedTest.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/versions.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="174" column="39" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#0#619#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/SingleFragmentActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/OpenForTesting.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/FeedTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -232,6 +213,7 @@
     <option name="KEY_STORE_PATH" value="$USER_HOME$/jsonKey" />
     <option name="KEY_ALIAS" value="myKey" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -255,7 +237,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/transpire/widgets/ItemDecoration.kt" />
         <option value="$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/ArticleRepository.kt" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/TranspireApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/listArticle/DisplayListArticlesFragmentViewModel.kt" />
@@ -293,14 +274,17 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/FeedTest.kt" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/com/angelsheaven/demo/data/storage/StorageDataSourceTest.kt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/versions.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="311" />
+    <option name="y" value="23" />
+    <option name="width" value="1129" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,6 +294,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -321,19 +336,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,6 +347,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-04-13T22:50:18.852Z" />
     <property name="ExportApk.ApkPath" value="$USER_HOME$/Desktop" />
     <property name="ExportApk.BuildVariants" value="debug" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/captures/com.angelsheaven.teremdemoapp_2019.03.06_23.35.li" />
@@ -505,23 +508,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeedTest.test_twoSameFeeds" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.angelsheaven.demo.data.storage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.angelsheaven.demo.data.storage" />
-      <option name="MAIN_CLASS_NAME" value="com.angelsheaven.demo.data.storage.FeedTest" />
-      <option name="METHOD_NAME" value="test_twoSameFeeds" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StorageDataSourceTest.data source returns a value" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -541,6 +527,21 @@
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -616,19 +617,19 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
-      <item itemvalue="Android JUnit.FeedTest.test_twoSameFeeds" />
       <item itemvalue="Android JUnit.FeedTest.test_twoDifferentFeeds" />
       <item itemvalue="Android JUnit.StorageDataSourceTest.data source returns a value" />
       <item itemvalue="Android JUnit.FeedTest.test two feeds are same" />
       <item itemvalue="Android JUnit.FeedTest.test two seeds are different" />
+      <item itemvalue="Android JUnit.com in app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.com in app" />
         <item itemvalue="Android JUnit.FeedTest.test two seeds are different" />
         <item itemvalue="Android JUnit.FeedTest.test two feeds are same" />
         <item itemvalue="Android JUnit.StorageDataSourceTest.data source returns a value" />
         <item itemvalue="Android JUnit.FeedTest.test_twoDifferentFeeds" />
-        <item itemvalue="Android JUnit.FeedTest.test_twoSameFeeds" />
       </list>
     </recent_temporary>
   </component>
@@ -654,12 +655,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FeedTest_test_twoDifferentFeeds - 2019.04.03 at 22h 27m 35s.xml">
-      <configuration name="FeedTest.test_twoDifferentFeeds" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="FeedTest_test_twoDifferentFeeds - 2019.04.03 at 22h 28m 50s.xml">
-      <configuration name="FeedTest.test_twoDifferentFeeds" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="FeedTest_test_twoDifferentFeeds - 2019.04.03 at 22h 29m 56s.xml">
       <configuration name="FeedTest.test_twoDifferentFeeds" configurationId="AndroidJUnit" />
     </history-entry>
@@ -684,6 +679,12 @@
     <history-entry file="FeedTest_test_two_seeds_are_different - 2019.04.14 at 08h 43m 30s.xml">
       <configuration name="FeedTest.test two seeds are different" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="com_in_app - 2019.04.14 at 09h 21m 26s.xml">
+      <configuration name="com in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="com_in_app - 2019.04.14 at 09h 42m 44s.xml">
+      <configuration name="com in app" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,26 +696,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
-      <window_info id="Build Variants" order="2" side_tool="true" weight="0.32894737" />
+      <window_info id="Build Variants" order="2" sideWeight="0.50151974" side_tool="true" weight="0.33173588" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32785088" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49949342" visible="true" weight="0.33173588" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49772382" visible="true" weight="0.45922747" />
       <window_info id="Resources Explorer" order="7" weight="0.29041487" />
-      <window_info id="Structure" order="8" sideWeight="0.5005066" side_tool="true" weight="0.3125" />
-      <window_info anchor="bottom" auto_hide="true" id="Build" order="0" sideWeight="0.47603834" weight="0.30800405" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.38905776" />
-      <window_info anchor="bottom" id="Android Profiler" order="2" weight="0.3283767" />
+      <window_info id="Structure" order="8" sideWeight="0.5022762" side_tool="true" weight="0.68311405" />
+      <window_info anchor="bottom" auto_hide="true" id="Build" order="0" sideWeight="0.47603834" visible="true" weight="0.30731103" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.47765008" />
+      <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" weight="0.3283767" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.51363635" side_tool="true" weight="0.43108505" />
       <window_info anchor="bottom" id="Logcat" order="4" sideWeight="0.48909092" weight="0.43108505" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.48636365" weight="0.21276596" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="7" sideWeight="0.48636365" weight="0.211838" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32826748" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3135068" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.46104726" />
@@ -737,7 +737,7 @@
       <window_info anchor="right" id="Codota" order="10" />
       <window_info active="true" anchor="right" id="Assistant" order="11" visible="true" weight="0.24494143" />
       <window_info anchor="right" id="Kotlin Bytecode" order="12" weight="0.7622739" />
-      <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.32960597" />
+      <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3135965" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -786,6 +786,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="upload code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$com_in_app.ic" NAME="com in app Coverage Results" MODIFIED="1555197674343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/demo$FeedTest_test_two_feeds_are_same.ic" NAME="FeedTest.test two feeds are same Coverage Results" MODIFIED="1555055955108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.angelsheaven.demo.data.storage.*</FILTER>
     </SUITE>
@@ -952,27 +955,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/release/com/angelsheaven/demo/data/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/release/dataBindingGenBaseClassesRelease/out/com/angelsheaven/demo/databinding/TopLargeArticleItemLayoutBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/release/com/angelsheaven/demo/data/storage/StorageDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/release/com/angelsheaven/demo/data/Repository.java" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/release/dataBindingGenBaseClassesRelease/out/com/angelsheaven/demo/databinding/TopLargeArticleItemLayoutBinding.java" />
+    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/release/com/angelsheaven/demo/data/storage/StorageDataSource.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1020,9 +1005,6 @@
           <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1105,6 +1087,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/versions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="174" column="39" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/profile/profile-2019-04-14-09-06-35.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/core-api/org/gradle/api/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="415" column="12" selection-start-line="415" selection-start-column="12" selection-end-line="415" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/storage/StorageDataSource.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
@@ -1116,6 +1118,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/OpenForTesting.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1133,29 +1151,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/OpenForTesting.kt">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/versions.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="174" column="39" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="142" column="15" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
