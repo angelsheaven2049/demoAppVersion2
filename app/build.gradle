@@ -30,7 +30,7 @@ android {
             shrinkResources false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            testCoverageEnabled (project.hasProperty('coverage'))
+            testCoverageEnabled(project.hasProperty('coverage'))
         }
         release {
             shrinkResources false
@@ -48,7 +48,7 @@ android {
             enableSplit = true
         }
 
-        abi{
+        abi {
             enableSplit = true
         }
     }
@@ -62,9 +62,18 @@ android {
     }
 }
 
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+configurations.all
+        {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'androidx.arch.core'
+                        && !details.requested.name.contains('core-testing')) {
+                    details.useVersion "2.0.1"
+                }
 
+            }
+        }
+
+dependencies {
     //Kotlin
     implementation deps.kotlin.stdlib
     implementation deps.kotlin.reflect
@@ -75,26 +84,24 @@ dependencies {
     implementation deps.anko.coroutine
 
     //UI components libraries
-    implementation deps.ui.material_design
-    implementation deps.ui.cardview
-    implementation deps.ui.recyclerview
-    implementation deps.ui.constraintlayout
+    implementation deps.support.material_design
+    implementation deps.support.cardview
+    implementation deps.support.recyclerview
+    implementation deps.support.constraintlayout
 
     // Navigation
     implementation deps.navigation.fragment
     implementation deps.navigation.ktx
 
     //Architecture components libraries
-    implementation deps.architecture.lifecycle_runtime
-    implementation deps.architecture.lifecycle_extensions
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.extensions
+    implementation deps.lifecycle.viewmodel_ktx
+
     implementation deps.support.v4
-    implementation deps.architecture.lifecycle_extensions
-    implementation deps.architecture.lifecycle_viewmodel_ktx
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
-    kapt deps.architecture.lifecycle_compiler
-    annotationProcessor deps.architecture.lifecycle_compiler
+    kapt deps.lifecycle.compiler
+    annotationProcessor deps.lifecycle.compiler
 
     //Support lirary
     implementation deps.support.v4
@@ -110,7 +117,7 @@ dependencies {
     //Paging
     implementation deps.paging.runtime
 
-    implementation deps.core_ktx.core
+    implementation deps.support.core_ktx
 
     //Kotlin coroutines
     implementation deps.coroutines.core
@@ -151,20 +158,18 @@ dependencies {
     androidTestImplementation deps.test.runner
     androidTestImplementation deps.test.rule
     androidTestImplementation deps.support.appcompat
-    androidTestImplementation deps.ui.recyclerview
-    androidTestImplementation deps.ui.cardview
-    androidTestImplementation deps.ui.material_design
+    androidTestImplementation deps.support.recyclerview
+    androidTestImplementation deps.support.cardview
+    androidTestImplementation deps.support.material_design
     androidTestImplementation deps.test.espresso_contrib
     androidTestImplementation deps.test.espresso
     androidTestImplementation deps.test.arch_core_test
     androidTestImplementation deps.test.mockito_core
     androidTestImplementation deps.test.mockito_android
-    androidTestImplementation deps.test.support_annotation
+    androidTestImplementation deps.support.annotation
 
     androidTestImplementation deps.test.test_core
     //androidTestImplementation deps.test.assertion_junit
-
-    implementation deps.test.support_annotation
 
 
 }

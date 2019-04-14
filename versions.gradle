@@ -26,20 +26,19 @@ versions.android_gradle_plugin = '3.3.2'
 versions.kotlin = "1.3.21"
 versions.navigation = "2.1.0-alpha01"
 versions.support = "1.0.0"
-versions.lifecycle = "2.1.0-alpha02"
+versions.lifecycle = "2.0.0"
 versions.arch_core = "2.0.1"
 versions.constraint_layout_version = "2.0.0-alpha2"
-versions.junit_version = "4.13-beta-1"
 versions.support_test_version = "1.0.2"
-versions.room_version = "2.1.0-alpha03"
-versions.work_version = "1.0.0-rc02"
+versions.room = "2.1.0-alpha03"
+versions.work = "2.0.0-rc01"
 versions.topsnackbar = "1.1.1"
 versions.v4 = "1.0.0"
 versions.appcompat = "1.0.2"
-versions.room = "2.0.0"
-versions.paging = "2.1.0"
+versions.room = "2.1.0-alpha03"
+versions.paging = "2.1.0-rc01"
 versions.corektx = "1.0.1"
-versions.retrofit2 = "2.5.0"
+versions.retrofit = "2.5.0"
 versions.okhttp3 = "3.12.1"
 versions.gson = "2.8.5"
 versions.gson_converter = "2.5.0"
@@ -85,14 +84,50 @@ kotlin.reflect = "org.jetbrains.kotlin:kotlin-reflect:$versions.kotlin"
 deps.kotlin = kotlin
 
 //UI component libraries
+def support = [:]
+support.annotation = "androidx.annotation:annotation:$versions.support"
+support.appcompat = "androidx.appcompat:appcompat:$versions.support"
+support.recyclerview = "androidx.recyclerview:recyclerview:$versions.support"
+support.cardview = "androidx.cardview:cardview:$versions.support"
+support.material_design = "com.google.android.material:material:$versions.support"
+support.v4 = "androidx.legacy:legacy-support-v4:$versions.support"
+support.constraintlayout = "androidx.constraintlayout:constraintlayout:$versions.constraint_layout_version"
+support.core_ktx = "androidx.core:core-ktx:$versions.corektx"
+
+deps.support = support
+
 def ui = [:]
-ui.material_design = "com.google.android.material:material:$versions.support"
-ui.cardview = "androidx.cardview:cardview:$versions.support"
-ui.recyclerview = "androidx.recyclerview:recyclerview:$versions.support"
-ui.constraintlayout = "androidx.constraintlayout:constraintlayout:$versions.constraint_layout_version"
 ui.snackbar = "com.androidadvance:topsnackbar:$versions.topsnackbar"
 
 deps.ui = ui
+
+//Store database
+def room = [:]
+room.runtime = "androidx.room:room-runtime:$versions.room"
+room.compiler = "androidx.room:room-compiler:$versions.room"
+room.coroutine = "androidx.room:room-coroutines:$versions.room"
+room.rxjava2 = "androidx.room:room-rxjava2:$versions.room"
+
+deps.room = room
+
+//Livecycle
+def lifecycle = [:]
+lifecycle.runtime = "androidx.lifecycle:lifecycle-runtime:$versions.lifecycle"
+lifecycle.extensions = "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
+lifecycle.compiler = "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle"
+lifecycle.viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
+
+deps.lifecycle = lifecycle
+
+//Retrofit
+def retrofit = [:]
+retrofit.runtime = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+retrofit.gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+retrofit.mock = "com.squareup.retrofit2:retrofit-mock:$versions.retrofit"
+retrofit.okhttp_logging_interceptor = "com.squareup.okhttp3:logging-interceptor:$versions.okhttp3"
+retrofit.coroutine_adapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$versions.kotlin_coroutine_adapter"
+
+deps.retrofit = retrofit
 
 //Navigation component
 def navigation = [:]
@@ -102,31 +137,6 @@ navigation.safe_args_plugin = "androidx.navigation:navigation-safe-args-gradle-p
 
 deps.navigation = navigation
 
-//Architecture component
-def architecture = [:]
-architecture.lifecycle_runtime = "androidx.lifecycle:lifecycle-runtime:$versions.lifecycle"
-architecture.lifecycle_extensions = "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
-architecture.lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle"
-architecture.lifecycle_viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
-
-deps.architecture = architecture
-
-//Support libraries
-def support = [:]
-support.v4 = "androidx.legacy:legacy-support-v4:$versions.support"
-support.appcompat = "androidx.appcompat:appcompat:$versions.support"
-
-deps.support = support
-
-//Store database
-def room = [:]
-room.runtime = "androidx.room:room-runtime:$versions.room_version"
-room.compiler = "androidx.room:room-compiler:$versions.room_version"
-room.coroutine = "androidx.room:room-coroutines:$versions.room_version"
-room.rxjava2 = "androidx.room:room-rxjava2:$versions.room_version"
-
-deps.room = room
-
 //Loading Paging
 def paging = [:]
 paging.runtime = "androidx.paging:paging-runtime-ktx:$versions.paging"
@@ -135,23 +145,9 @@ deps.paging = paging
 
 //Work manager
 def work_manager = [:]
-work_manager.runtime = "android.arch.work:work-runtime:$versions.work_version"
+work_manager.runtime = "androidx.work:work-runtime:$versions.work"
 
 deps.work_manager = work_manager
-
-//Core ktx
-def core_ktx = [:]
-core_ktx.core = "androidx.core:core-ktx:$versions.corektx"
-
-deps.core_ktx = core_ktx
-
-//Retrofit
-def retrofit = [:]
-retrofit.retrofit2 = "com.squareup.retrofit2:retrofit:$versions.retrofit2"
-retrofit.okhttp3 = "com.squareup.okhttp3:logging-interceptor:$versions.okhttp3"
-retrofit.kotlin_coroutine_adapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$versions.kotlin_coroutine_adapter"
-
-deps.retrofit = retrofit
 
 //Json parsing
 def json = [:]
@@ -182,7 +178,6 @@ test.espresso_idling = "androidx.test.espresso.idling:idling-concurrent:$version
 test.espresso_idling_resource = "androidx.test.espresso:espresso-idling-resource:$versions.espresso_idling_resource"
 test.rule = "androidx.test:rules:$versions.test_rule"
 //Required for instrumented tests
-test.support_annotation = "androidx.annotation:annotation:$versions.support"
 test.runner = "androidx.test:runner:$versions.runner"
 test.hamcrest_library = "org.hamcrest:hamcrest-library:$versions.hamcrest_library"
 
@@ -212,6 +207,7 @@ dagger.runtime = "com.google.dagger:dagger:$versions.dagger"
 
 deps.dagger = dagger
 
+//Loading image
 def glide = [:]
 glide.glide = "com.github.bumptech.glide:glide:$versions.glide"
 

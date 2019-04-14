@@ -10,8 +10,8 @@ import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers.*
-import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
+import androidx.test.runner.AndroidJUnit4
 import com.angelsheaven.demo.R
 import com.angelsheaven.demo.ui.listArticle.ArticlesAdapter
 import org.junit.Before
