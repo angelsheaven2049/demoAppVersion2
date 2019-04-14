@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.paging:paging-runtime-ktx:2.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paging-runtime-ktx-2.1.0.aar/f45bda05a1d9ce34c749b83a25d08465/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paging-runtime-ktx-2.1.0.aar/f45bda05a1d9ce34c749b83a25d08465/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paging-runtime-ktx-2.1.0.aar/4ebfe7d7f3f8aac1f42a4bcefa3446ab/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paging-runtime-ktx-2.1.0.aar/4ebfe7d7f3f8aac1f42a4bcefa3446ab/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
