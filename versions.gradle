@@ -23,12 +23,13 @@ versions.globalCompileSdkVersion = 28
 versions.globalMinSdkVersion = 26
 versions.globalTargetSdkVersion = 26
 versions.anko = "0.10.8"
-versions.support_version = "1.0.0"
-versions.arch_version = "2.1.0-alpha02"
+versions.support = "1.0.0"
+versions.lifecycle = "2.1.0-alpha02"
+versions.arch_core = "2.0.1"
 versions.constraint_layout_version = "2.0.0-alpha2"
 versions.junit_version = "4.13-beta-1"
 versions.support_test_version = "1.0.2"
-versions.room_version="2.1.0-alpha03"
+versions.room_version = "2.1.0-alpha03"
 versions.work_version = "1.0.0-rc02"
 versions.topsnackbar = "1.1.1"
 versions.v4 = "1.0.0"
@@ -49,11 +50,12 @@ versions.coroutineCore = "1.1.1"
 versions.kotlin_coroutine_adapter = "0.9.2"
 versions.rx_android = "2.0.1"
 versions.rxjava2 = "2.1.3"
-versions.support_annotations = "1.0.0"
-versions.runner = "1.1.0"
-versions.test_core = "1.0.0"
+versions.support_annotations = "1.0.0-alpha1"
+versions.runner = "1.1.0-alpha4"
+versions.test_core = "1.1.0"
 versions.mockito_core = "2.8.9"
-versions.mockito_inline ="2.23.4"
+versions.mockito_inline = "2.23.4"
+versions.mockito_android = "2.22.0"
 versions.hamcrest_library = "2.1"
 versions.assertion_truth = "1.0.0"
 versions.assertion_google_truth = "0.42"
@@ -65,7 +67,7 @@ versions.espresso_idling_resource = "3.1.0"
 versions.dagger = "2.16"
 versions.glide = "4.8.0@aar"
 versions.volley = "1.1.0"
-versions.leakCanary = "1.6.3"
+versions.leak_canary = "1.6.3"
 
 deps.versions = versions
 
@@ -90,9 +92,9 @@ deps.anko = anko
 
 //UI component libraries
 def ui = [:]
-ui.material_design = "com.google.android.material:material:$versions.material_version"
-ui.cardview = "androidx.cardview:cardview:$versions.support_version"
-ui.recyclerview = "androidx.recyclerview:recyclerview:$versions.support_version"
+ui.material_design = "com.google.android.material:material:$versions.support"
+ui.cardview = "androidx.cardview:cardview:$versions.support"
+ui.recyclerview = "androidx.recyclerview:recyclerview:$versions.support"
 ui.constraintlayout = "androidx.constraintlayout:constraintlayout:$versions.constraint_layout_version"
 ui.snackbar = "com.androidadvance:topsnackbar:$versions.topsnackbar"
 
@@ -107,18 +109,18 @@ deps.navigation = navigation
 
 //Architecture component
 def architecture = [:]
-architecture.lifecycle_runtime = "androidx.lifecycle:lifecycle-runtime:$versions.arch_version"
-architecture.lifecycle_extensions = "androidx.lifecycle:lifecycle-extensions:$versions.arch_version"
-architecture.lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:$versions.arch_version"
-architecture.lifecycle_viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.arch_version"
+architecture.lifecycle_runtime = "androidx.lifecycle:lifecycle-runtime:$versions.lifecycle"
+architecture.lifecycle_extensions = "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
+architecture.lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle"
+architecture.lifecycle_viewmodel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
 
 
 deps.architecture = architecture
 
 //Support libraries
 def support = [:]
-support.v4 = "androidx.legacy:legacy-support-v4:$versions.v4"
-support.appcompat = "androidx.appcompat:appcompat:$versions.appcompat"
+support.v4 = "androidx.legacy:legacy-support-v4:$versions.support"
+support.appcompat = "androidx.appcompat:appcompat:$versions.support"
 
 deps.support = support
 
@@ -170,9 +172,9 @@ test.local = "junit:junit:$versions.junit_local_test"
 //Core library
 test.test_core = "androidx.test:core:$versions.test_core"
 test.mockito_core = "org.mockito:mockito-core:$versions.mockito_core"
-test.mockito_android = "org.mockito:mockito-android:$versions.mockito_core"
 //Required to open final class
-test.mockito_inline =  "org.mockito:mockito-inline:$versions.mockito_inline"
+test.mockito_inline = "org.mockito:mockito-inline:$versions.mockito_inline"
+test.mockito_android = "org.mockito:mockito-android:$versions.mockito_android"
 //Assertion
 test.assertion_junit = "androidx.test.ext:junit:$versions.assertion_junit"
 test.assertion_truth = "androidx.test.ext:truth:$versions.assertion_truth"
@@ -186,9 +188,11 @@ test.espresso_idling = "androidx.test.espresso.idling:idling-concurrent:$version
 test.espresso_idling_resource = "androidx.test.espresso:espresso-idling-resource:$versions.espresso_idling_resource"
 test.rule = "androidx.test:rules:$versions.test_rule"
 //Required for instrumented tests
-test.support_annotation = "androidx.annotation:annotation:$versions.support_annotations"
+test.support_annotation = "androidx.annotation:annotation:$versions.support"
 test.runner = "androidx.test:runner:$versions.runner"
 test.hamcrest_library = "org.hamcrest:hamcrest-library:$versions.hamcrest_library"
+
+test.arch_core_test = "androidx.arch.core:core-testing:$versions.arch_core"
 
 deps.test = test
 
@@ -226,17 +230,19 @@ deps.volley = volley
 
 //Detect memory leaking
 def leak = [:]
-leak.debug = "com.squareup.leakcanary:leakcanary-android:$versions.leakCanary"
-leak.release = "com.squareup.leakcanary:leakcanary-android-no-op:$versions.leakCanary"
-leak.support_fragment = "com.squareup.leakcanary:leakcanary-support-fragment:$versions.leakCanary"
+leak.debug = "com.squareup.leakcanary:leakcanary-android:$versions.leak_canary"
+leak.release = "com.squareup.leakcanary:leakcanary-android-no-op:$versions.leak_canary"
+leak.support_fragment = "com.squareup.leakcanary:leakcanary-support-fragment:$versions.leak_canary"
 
 deps.leak = leak
 
-
-
-
-
-
+def addRepos(RepositoryHandler handler) {
+    handler.google()
+    handler.jcenter()
+    handler.maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    handler.maven { url "https://kotlin.bintray.com/kotlinx/" } // For kotlinx-metadata-jvm used by Room 2.1.0 (KT-27991)
+}
+ext.addRepos = this.&addRepos
 
 
 

@@ -148,10 +148,23 @@ dependencies {
     testImplementation deps.test.mockito_inline
 
     //Integration test
-    androidTestImplementation deps.test.test_core
-    androidTestImplementation deps.test.assertion_junit
     androidTestImplementation deps.test.runner
-    androidTestImplementation deps.test.espresso
+    androidTestImplementation deps.test.rule
+    androidTestImplementation deps.support.appcompat
+    androidTestImplementation deps.ui.recyclerview
+    androidTestImplementation deps.ui.cardview
+    androidTestImplementation deps.ui.material_design
     androidTestImplementation deps.test.espresso_contrib
+    androidTestImplementation deps.test.espresso
+    androidTestImplementation deps.test.arch_core_test
+    androidTestImplementation deps.test.mockito_core
+    androidTestImplementation deps.test.mockito_android
+    androidTestImplementation deps.test.support_annotation
+
+    androidTestImplementation deps.test.test_core
+    //androidTestImplementation deps.test.assertion_junit
+
+    implementation deps.test.support_annotation
+
 
 }
