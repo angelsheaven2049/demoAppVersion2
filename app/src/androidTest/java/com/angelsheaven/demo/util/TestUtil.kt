@@ -1,6 +1,7 @@
 package com.angelsheaven.demo.util
 
 import com.angelsheaven.demo.data.Article
+import com.angelsheaven.demo.data.Enclosure
 
 object TestUtil {
 
@@ -13,9 +14,17 @@ object TestUtil {
         thumbnail = "",
         description = "",
         content = "",
-        enclosure = null,
-        categories = null,
+        enclosure = createEnclosure(),
+        categories = createCategories(),
         topArticle = false
     )
+
+    private fun createEnclosure() = Enclosure(
+        link = "",
+        type = "",
+        thumbnail = ""
+    )
+
+    private fun createCategories() = listOf("")
 
 }
