@@ -10,6 +10,7 @@
         <item name="android:textColor">@color/colorDefaultText</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat</item>
     </style>
 
     <style name="Widget.Demo.Toolbar" parent="Widget.AppCompat.Toolbar">
