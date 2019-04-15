@@ -18,10 +18,10 @@ package com.angelsheaven.demo.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.angelsheaven.demo.viewmodel.ViewModelFactory
 import com.angelsheaven.demo.ui.MainActivityViewModel
 import com.angelsheaven.demo.ui.listArticle.DisplayListArticlesFragmentViewModel
 import com.angelsheaven.demo.ui.viewNewsDetail.ViewNewsDetailFragmentViewModel
+import com.angelsheaven.demo.viewmodel.ViewModelFactory
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
@@ -31,17 +31,17 @@ import dagger.multibindings.IntoMap
 abstract class ViewModelModule {
     @Binds
     @IntoMap
-    @ViewModelKey(DisplayListArticlesFragmentViewModel::class)
+    @ViewModelKeyJava(DisplayListArticlesFragmentViewModel::class)
     abstract fun bindUserViewModel(displayListArticlesFragmentViewModel: DisplayListArticlesFragmentViewModel): ViewModel
 
     @Binds
     @IntoMap
-    @ViewModelKey(ViewNewsDetailFragmentViewModel::class)
+    @ViewModelKeyJava(ViewNewsDetailFragmentViewModel::class)
     abstract fun bindSearchViewModel(viewNewsDetailFragmentViewModel: ViewNewsDetailFragmentViewModel): ViewModel
 
     @Binds
     @IntoMap
-    @ViewModelKey(MainActivityViewModel::class)
+    @ViewModelKeyJava(MainActivityViewModel::class)
     abstract fun bindRepoViewModel(mainActivityViewModel: MainActivityViewModel): ViewModel
 
     @Binds
