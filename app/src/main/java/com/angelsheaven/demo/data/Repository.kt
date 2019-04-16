@@ -74,7 +74,7 @@ class Repository @Inject constructor(
                 /**
                  * Request network server return just in articles
                  */
-                val getDataTask = async { networkDataSource?.getJustInNewsAsyncRetrofit() }
+                val getDataTask = async { networkDataSource?.getJustInNewsAsync() }
 
                 val getReturnedData = getDataTask.await()
 

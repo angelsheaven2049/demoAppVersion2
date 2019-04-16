@@ -48,6 +48,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a7f8cf1-c3a8-4f20-83dc-2575b2aaf2b7" name="Default Changelist" comment="upload code">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/ArticleService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -61,7 +62,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/retrofit/ArticleService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/retrofit/ArticleService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/NetworkController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/NetworkController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,14 +95,41 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="70" selection-end-column="59" />
+                <state relative-caret-position="270">
+                  <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
                   <folding>
-                    <element signature="e#44#702#0" expanded="true" />
+                    <element signature="e#44#451#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="148">
+                  <caret line="76" column="79" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="79" />
+                  <folding>
+                    <element signature="e#842#975#0" />
+                    <element signature="e#1170#1215#0" />
+                    <element signature="e#1357#1453#0" />
+                    <element signature="e#1508#1557#0" />
+                    <element signature="e#1597#1677#0" />
+                    <element signature="e#2077#2163#0" />
+                    <element signature="e#2309#2398#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -108,19 +137,19 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/NetworkController.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+                <state relative-caret-position="-67">
+                  <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="113">
-                  <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+                <state relative-caret-position="184">
+                  <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
                   <folding>
-                    <element signature="e#34#547#0" expanded="true" />
+                    <element signature="e#34#480#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -160,7 +189,7 @@
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/retrofit/ArticleService.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="220">
-                  <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+                  <caret line="10" column="48" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="48" />
                   <folding>
                     <element signature="e#53#136#0" expanded="true" />
                   </folding>
@@ -182,55 +211,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/ArticleService.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="109" column="78" lean-forward="true" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
+                <state relative-caret-position="51">
+                  <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
                   <folding>
-                    <element signature="e#1139#2594#2" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/RequestResult.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="109">
-                  <caret line="84" selection-start-line="84" selection-end-line="84" />
-                  <folding>
-                    <element signature="e#842#975#0" />
-                    <element signature="e#1170#1215#0" />
-                    <element signature="e#1357#1453#0" />
-                    <element signature="e#1508#1557#0" />
-                    <element signature="e#1597#1677#0" />
-                    <element signature="e#2077#2163#0" />
-                    <element signature="e#2309#2398#0" />
-                    <element signature="e#2803#5038#0" />
-                    <element signature="e#2929#3084#0" />
-                    <element signature="e#3161#5007#1" />
-                    <element signature="e#3199#3398#0" />
-                    <element signature="e#3520#3655#0" />
-                    <element signature="e#3944#4973#1" />
-                    <element signature="e#3986#4124#0" />
-                    <element signature="e#4199#4396#2" />
-                    <element signature="e#4701#4935#1" />
-                    <element signature="e#5096#5213#0" />
-                    <element signature="e#5236#5354#0" />
-                    <element signature="e#5441#5591#0" />
-                    <element signature="e#5668#5727#0" />
-                    <element signature="e#5794#5868#0" />
-                    <element signature="e#5874#5935#0" />
-                    <element signature="e#5969#6014#0" />
+                    <element signature="e#51#396#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -315,9 +301,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/ui/ViewModelContract.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/ViewModelContract.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/MyExtensions.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/utilities/DataConverters.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/DataModel.kt" />
@@ -362,10 +346,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/versions.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/retrofit/ArticleService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/ArticleService.kt" />
       </list>
     </option>
   </component>
@@ -472,6 +458,34 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="retrofit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demoAppVersion2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="angelsheaven" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="volley" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -1051,22 +1065,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/SingleFragmentActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/debug/java/com/angelsheaven/demo/testing/OpenForTesting.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1343,13 +1341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/NetworkController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/versions.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1360,13 +1351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/retrofit/ArticleService.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkContract.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#53#136#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1377,10 +1365,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/retrofit/ArticleService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#53#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/NetworkController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#44#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/Repository.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="148">
+          <caret line="76" column="79" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="79" />
           <folding>
             <element signature="e#842#975#0" />
             <element signature="e#1170#1215#0" />
@@ -1389,33 +1404,14 @@
             <element signature="e#1597#1677#0" />
             <element signature="e#2077#2163#0" />
             <element signature="e#2309#2398#0" />
-            <element signature="e#2803#5038#0" />
-            <element signature="e#2929#3084#0" />
-            <element signature="e#3161#5007#1" />
-            <element signature="e#3199#3398#0" />
-            <element signature="e#3520#3655#0" />
-            <element signature="e#3944#4973#1" />
-            <element signature="e#3986#4124#0" />
-            <element signature="e#4199#4396#2" />
-            <element signature="e#4701#4935#1" />
-            <element signature="e#5096#5213#0" />
-            <element signature="e#5236#5354#0" />
-            <element signature="e#5441#5591#0" />
-            <element signature="e#5668#5727#0" />
-            <element signature="e#5794#5868#0" />
-            <element signature="e#5874#5935#0" />
-            <element signature="e#5969#6014#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/CustomVolleyRequest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding>
-            <element signature="e#34#547#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1426,19 +1422,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkContract.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/di/AppModule.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="184">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#34#480#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/NetworkDataSource.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/angelsheaven/demo/data/network/volley/ArticleService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="109" column="78" lean-forward="true" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
+        <state relative-caret-position="51">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#1139#2594#2" />
+            <element signature="e#51#396#0" expanded="true" />
           </folding>
         </state>
       </provider>

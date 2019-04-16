@@ -16,6 +16,7 @@ import java.nio.charset.Charset
 class CustomVolleyRequest(
     method: Int,
     url: String,
+    private val mPriority: Priority? = null,
     private val listener: Response.Listener<JSONObject>,
     errorListener: Response.ErrorListener
 ) : Request<JSONObject>(method, url, errorListener) {
@@ -31,8 +32,6 @@ class CustomVolleyRequest(
     init {
         retryPolicy = mRetryPolicy
     }
-
-    private var mPriority: Priority? = null
 
     override fun parseNetworkResponse(response: NetworkResponse?): Response<JSONObject>? {
         try {
@@ -58,14 +57,6 @@ class CustomVolleyRequest(
 
     override fun deliverResponse(response: JSONObject?) {
         listener.onResponse(response)
-    }
-
-    /**
-     * Set priority for request
-     * @param priority priority to set
-     */
-    fun setPriority(priority: Priority) {
-        this.mPriority = priority
     }
 
     override fun getPriority(): Priority {

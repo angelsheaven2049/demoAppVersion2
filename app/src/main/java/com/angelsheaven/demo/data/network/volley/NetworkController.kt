@@ -18,7 +18,7 @@ import javax.inject.Singleton
  */
 @OpenForTesting
 @Singleton
-class NetworkController @Inject constructor(app: Application) {
+open class NetworkController @Inject constructor(app: Application) {
 
     companion object {
         private var mInstance: NetworkController? = null

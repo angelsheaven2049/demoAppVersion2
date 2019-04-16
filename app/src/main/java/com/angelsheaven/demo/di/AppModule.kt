@@ -4,7 +4,6 @@ import android.app.Application
 import androidx.room.Room
 import com.angelsheaven.demo.data.network.NetworkContract
 import com.angelsheaven.demo.data.network.retrofit.ArticleService
-import com.angelsheaven.demo.data.network.volley.NetworkController
 import com.angelsheaven.demo.data.storage.AppDatabase
 import com.angelsheaven.demo.data.storage.DatabaseContract
 import dagger.Module
@@ -20,16 +19,12 @@ import javax.inject.Singleton
 class AppModule {
 
     /**
-     * Provide volley controller for retrieve data remotely
+     * Provide article service for retrieve data remotely
      * @param app of provided application
      */
     @Provides
     @Singleton
-    fun provideVolleyController(app: Application): NetworkController = NetworkController(app)
-
-    @Provides
-    @Singleton
-    fun provideArticleService():ArticleService = Retrofit.Builder()
+    fun provideArticleService(): ArticleService = Retrofit.Builder()
         .baseUrl(NetworkContract.BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
