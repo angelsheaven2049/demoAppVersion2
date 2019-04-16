@@ -131,8 +131,14 @@ deps.retrofit = retrofit
 
 //Network component
 def network = [:]
-
+//Volley library
 network.volley = "com.android.volley:volley:$versions.volley"
+//Retrofit library
+network.retrofit_runtime = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+network.retrofit_gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+network.retrofit_mock = "com.squareup.retrofit2:retrofit-mock:$versions.retrofit"
+network.retrofit_okhttp_logging_interceptor = "com.squareup.okhttp3:logging-interceptor:$versions.okhttp3"
+network.retrofit_coroutine_adapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$versions.kotlin_coroutine_adapter"
 
 deps.network = network
 
