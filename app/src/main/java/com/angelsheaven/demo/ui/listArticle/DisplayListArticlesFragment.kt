@@ -13,7 +13,6 @@ import androidx.navigation.fragment.findNavController
 import com.angelsheaven.demo.R
 import com.angelsheaven.demo.databinding.FragmentDisplayListArticlesBinding
 import com.angelsheaven.demo.di.Injectable
-import com.angelsheaven.demo.ui.MainActivity
 import com.angelsheaven.demo.utilities.MyLogger
 import com.angelsheaven.demo.utilities.mySnackBar
 import com.angelsheaven.demo.widgets.ItemDecoration
@@ -60,19 +59,6 @@ class DisplayListArticlesFragment : Fragment(), Injectable, MyLogger {
     private lateinit var mArticlesAdapter: ArticlesAdapter
 
     private lateinit var mBinding: FragmentDisplayListArticlesBinding
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        /**
-         * Register a listener to handle request refreshingd ata
-         * from mainactivity
-         */
-        val mainActivityViewModel = (activity as MainActivity).mViewModel
-        mainActivityViewModel.requestRefreshData.observe(this, Observer { requested ->
-            if (requested)
-                mViewModel.loadArticles()
-        })
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

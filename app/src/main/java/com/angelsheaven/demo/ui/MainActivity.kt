@@ -11,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.angelsheaven.demo.R
+import com.angelsheaven.demo.ui.listArticle.DisplayListArticlesFragmentViewModel
 import com.angelsheaven.demo.utilities.MyLogger
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector
@@ -64,7 +65,7 @@ class MainActivity : AppCompatActivity(),
          * Register appBarConfiguRation to MainActivity
          * to handle fragments navigation
          */
-        setupActionBarWithNavController(navController,appBarConfiguration)
+        setupActionBarWithNavController(navController, appBarConfiguration)
 
     }
 
@@ -80,7 +81,9 @@ class MainActivity : AppCompatActivity(),
          * send request to refresh data
          * to fragments handle display data
          */
-        mViewModel.requestRefreshData.postValue(true)
+        DisplayListArticlesFragmentViewModel.instance()?.run {
+            this.loadArticles()
+        }
     }
 
     override fun supportFragmentInjector() = dispatchingAndroidInjector

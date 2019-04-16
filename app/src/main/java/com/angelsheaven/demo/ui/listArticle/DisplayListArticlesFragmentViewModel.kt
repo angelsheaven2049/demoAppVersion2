@@ -8,12 +8,13 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.paging.PagedList
 import com.angelsheaven.demo.R
+import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.data.ArticleLoadResult
 import com.angelsheaven.demo.data.Repository
 import com.angelsheaven.demo.data.network.NetworkContract
-import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.utilities.MyLogger
 import javax.inject.Inject
+import javax.inject.Singleton
 
 /**
  * A viewmodel class for ListNewsFragment:
@@ -23,8 +24,23 @@ import javax.inject.Inject
  * @see Repository
  * @see DisplayListArticlesFragmentViewModel
  */
-class DisplayListArticlesFragmentViewModel @Inject constructor(private val repository:Repository,
-                                                               private val app: Application): ViewModel(), MyLogger {
+@Singleton
+class DisplayListArticlesFragmentViewModel @Inject constructor(
+    private val repository: Repository,
+    private val app: Application
+) : ViewModel(), MyLogger {
+
+    init {
+        myInstance = this
+    }
+
+    companion object {
+        private lateinit var myInstance: DisplayListArticlesFragmentViewModel
+        fun instance(): DisplayListArticlesFragmentViewModel? {
+            return myInstance
+        }
+    }
+
 
     private val queryLiveData = MutableLiveData<Bundle>()
 

@@ -1,7 +1,6 @@
 package com.angelsheaven.demo.ui
 
 import android.app.Application
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.angelsheaven.demo.utilities.MyLogger
 import javax.inject.Inject
@@ -13,14 +12,5 @@ import javax.inject.Inject
  * {@link ViewModel} for {@link MainActivity}
  */
 
-class MainActivityViewModel @Inject constructor(private val app: Application) : ViewModel(), MyLogger {
-
-    /**
-     * requestRefreshData used to notify request fresh data
-     * to fragments
-     * @see ListArticlesFragment
-     */
-    val requestRefreshData by lazy { MutableLiveData<Boolean>() }
-
-}
+class MainActivityViewModel @Inject constructor(private val app: Application) : ViewModel(), MyLogger
 
