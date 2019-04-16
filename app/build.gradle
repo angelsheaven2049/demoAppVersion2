@@ -107,12 +107,12 @@ dependencies {
     implementation deps.support.v4
     implementation deps.support.appcompat
 
-    //Room
-    implementation deps.room.runtime
-    implementation deps.room.coroutine
-    implementation deps.room.rxjava2
-    annotationProcessor deps.room.compiler
-    kapt deps.room.compiler
+    //Database
+    implementation deps.database.room_runtime
+    implementation deps.database.room_coroutine
+    implementation deps.database.room_rxjava2
+    annotationProcessor deps.database.room_compiler
+    kapt deps.database.room_compiler
 
     //Paging
     implementation deps.paging.runtime
