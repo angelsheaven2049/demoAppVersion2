@@ -93,7 +93,7 @@ dependencies {
     implementation deps.navigation.fragment
     implementation deps.navigation.ktx
 
-    //Architecture components libraries
+    //Data components libraries
     implementation deps.lifecycle.runtime
     implementation deps.lifecycle.extensions
     implementation deps.lifecycle.extensions
@@ -103,16 +103,30 @@ dependencies {
     kapt deps.lifecycle.compiler
     annotationProcessor deps.lifecycle.compiler
 
-    //Support lirary
+    //Support library
     implementation deps.support.v4
     implementation deps.support.appcompat
 
-    //Database
+    //Architecture component
+    implementation deps.dagger.runtime
+    implementation deps.dagger.core
+    implementation deps.dagger.android
+    implementation deps.dagger.android_support
+
+    kapt deps.dagger.compiler
+    kapt deps.dagger.android_support_compiler
+
+    //Database component
     implementation deps.database.room_runtime
     implementation deps.database.room_coroutine
     implementation deps.database.room_rxjava2
     annotationProcessor deps.database.room_compiler
     kapt deps.database.room_compiler
+
+    //Network component
+    implementation deps.network.volley
+    implementation deps.network.retrofit_gson
+    implementation deps.network.retrofit_runtime
 
     //Paging
     implementation deps.paging.runtime
@@ -131,19 +145,7 @@ dependencies {
     implementation deps.rx.rxjava2
     implementation deps.rx.rx_android
 
-    //Dagger2
-    implementation deps.dagger.runtime
-    implementation deps.dagger.core
-    implementation deps.dagger.android
-    implementation deps.dagger.android_support
-
-    kapt deps.dagger.compiler
-    kapt deps.dagger.android_support_compiler
-
-    //Network component
-    implementation deps.network.volley
-
-    //Detect leakmemory
+    //Detect memory leaking
     debugImplementation deps.leak.debug
     releaseImplementation deps.leak.release
     debugImplementation deps.leak.support_fragment
