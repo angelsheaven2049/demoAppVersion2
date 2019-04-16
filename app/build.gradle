@@ -127,6 +127,7 @@ dependencies {
     implementation deps.network.volley
     implementation deps.network.retrofit_gson
     implementation deps.network.retrofit_runtime
+    implementation deps.network.retrofit_coroutine_adapter
 
     //Paging
     implementation deps.paging.runtime
