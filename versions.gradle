@@ -129,6 +129,13 @@ retrofit.coroutine_adapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutin
 
 deps.retrofit = retrofit
 
+//Network component
+def network = [:]
+
+network.volley = "com.android.volley:volley:$versions.volley"
+
+deps.network = network
+
 //Navigation component
 def navigation = [:]
 navigation.fragment = "androidx.navigation:navigation-fragment-ktx:$versions.navigation"
@@ -212,11 +219,6 @@ def glide = [:]
 glide.glide = "com.github.bumptech.glide:glide:$versions.glide"
 
 deps.glide = glide
-
-def volley = [:]
-volley.volley = "com.android.volley:volley:$versions.volley"
-
-deps.volley = volley
 
 //group anko libraries
 def anko = [:]
