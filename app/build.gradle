@@ -146,6 +146,11 @@ dependencies {
     implementation deps.rx.rxjava2
     implementation deps.rx.rx_android
 
+    //Loading image
+    implementation deps.networkImage.glide
+
+    annotationProcessor deps.networkImage.glide_compiler
+
     //Detect memory leaking
     debugImplementation deps.leak.debug
     releaseImplementation deps.leak.release

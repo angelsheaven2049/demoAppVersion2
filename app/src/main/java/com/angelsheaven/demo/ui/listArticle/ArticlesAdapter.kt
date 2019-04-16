@@ -23,13 +23,16 @@ import androidx.databinding.ViewDataBinding
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.angelsheaven.demo.DemoApplication
 import com.angelsheaven.demo.R
 import com.angelsheaven.demo.data.Article
 import com.angelsheaven.demo.databinding.ArticleItemLayoutBinding
 import com.angelsheaven.demo.databinding.TopLargeArticleItemLayoutBinding
-import com.angelsheaven.demo.utilities.ImageRequester
 import com.angelsheaven.demo.utilities.MyLogger
-import kotlinx.android.synthetic.main.article_item_layout.view.*
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.bumptech.glide.request.RequestOptions
 
 /**
  * This class is used to hold and handle how to display
@@ -80,7 +83,7 @@ class ArticlesAdapter(
         val article = getItem(position)
 
         article?.run {
-            holder.bindTo(this,this@ArticlesAdapter)
+            holder.bindTo(this, this@ArticlesAdapter)
         }
 
     }
@@ -118,7 +121,7 @@ class ArticlesAdapter(
          */
         private lateinit var mArticle: Article
 
-        fun bindTo(news: Article,listener: ArticleClickListener) {
+        fun bindTo(news: Article, listener: ArticleClickListener) {
 
             mArticle = news
 
@@ -134,11 +137,18 @@ class ArticlesAdapter(
 
                 mBinding.executePendingBindings()
 
-                getThumbnailUrl()?.run { ImageRequester.setImageFromUrl(itemView.image_article, this) }
+                getThumbnailUrl()?.run {
+                    Glide.with(DemoApplication.instance)
+                        .load(this)
+                        .apply(RequestOptions.diskCacheStrategyOf(DiskCacheStrategy.AUTOMATIC))
+                        .apply(RequestOptions.fitCenterTransform())
+                        .transition(DrawableTransitionOptions.withCrossFade())
+                        .into(itemView.findViewById(R.id.image_article))
+                }
+
             }
 
         }
-
 
 
     }

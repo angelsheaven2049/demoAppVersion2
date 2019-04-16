@@ -66,7 +66,7 @@ versions.espresso_web = "3.1.0"
 versions.idling_concurrent = "3.1.0"
 versions.espresso_idling_resource = "3.1.0"
 versions.dagger = "2.22.1"
-versions.glide = "4.8.0@aar"
+versions.glide = "4.9.0"
 versions.volley = "1.1.0"
 versions.leak_canary = "1.6.3"
 versions.anko = "0.10.8"
@@ -222,10 +222,11 @@ dagger.runtime = "com.google.dagger:dagger:$versions.dagger"
 deps.dagger = dagger
 
 //Loading image
-def glide = [:]
-glide.glide = "com.github.bumptech.glide:glide:$versions.glide"
+def networkImage = [:]
+networkImage.glide = "com.github.bumptech.glide:glide:$versions.glide"
+networkImage.glide_compiler = "com.github.bumptech.glide:compiler:$versions.glide"
 
-deps.glide = glide
+deps.networkImage = networkImage
 
 //group anko libraries
 def anko = [:]
@@ -248,6 +249,7 @@ def addRepos(RepositoryHandler handler) {
     handler.jcenter()
     handler.maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
     handler.maven { url "https://kotlin.bintray.com/kotlinx/" } // For kotlinx-metadata-jvm used by Room 2.1.0 (KT-27991)
+    handler.maven { url 'https://maven.google.com' }
 }
 ext.addRepos = this.&addRepos
 
